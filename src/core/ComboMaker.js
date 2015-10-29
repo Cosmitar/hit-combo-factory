@@ -23,6 +23,7 @@ class ComboMaker {
             pairTracks = trackList.sort((a,b) => {
                 return b.popularity - a.popularity;
             }).slice(0,2);//@TODO check if two songs isn't it the same on different versions
+            //@TODO check if track isn't already in the paylist
 
             //@TODO analyze the tracks and catalog the combo.
             let combo = new Combo();
