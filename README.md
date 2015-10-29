@@ -4,7 +4,7 @@ Select the artists and you'll get two tracks of each artist on the list.
 [Try this work-in-progress example](http://cosmitar.github.io/hit-combo-maker/)
 
 ##Why two tracks? 
-**It's the perfect blance**
+**It's the perfect balance**
 
 if you LOVE the artist, ensures more than one song, cool!
 
