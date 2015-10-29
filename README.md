@@ -1,11 +1,14 @@
 # Hit Combo Maker
-Hit Combo Maker is a crafter for an always-comfortable playlist using Spotify API.
+[Hit Combo Maker](http://cosmitar.github.io/hit-combo-maker/) is a crafter for an always-comfortable playlist using Spotify API.
 Select the artists and you'll get two tracks of each artist on the list.
+[Try this work-in-progress example](http://cosmitar.github.io/hit-combo-maker/)
 
 ##Why two tracks? 
+**It's the perfect blance**
+
 if you LOVE the artist, ensures more than one song, cool!
 
-if you like the artist, two songs are enough, yeah!
+if you're ok with the artist, two songs are enough, yeah!
 
 if you don't like the artist, better remove him/her from the playlist (WIP)
 
