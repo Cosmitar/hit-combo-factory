@@ -1,0 +1,2468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"pro",
+				"profilePicAlt"
+			],
+			[
+				"defa",
+				"defaultProps"
+			],
+			[
+				"artis",
+				"artists〔variable〕"
+			],
+			[
+				"Arti",
+				"ArtistsList"
+			],
+			[
+				"sea",
+				"searchNode"
+			],
+			[
+				"Sea",
+				"SearchStore"
+			],
+			[
+				"Se",
+				"SearchStore"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"clear",
+				"clearTimeout〔function〕"
+			],
+			[
+				"array_sh",
+				"array_unshift"
+			],
+			[
+				"imp",
+				"implode〔function〕"
+			],
+			[
+				"pat",
+				"pathParams"
+			],
+			[
+				"ema",
+				"$emails〔variable〕"
+			],
+			[
+				"Utils_",
+				"Utils_Helper"
+			],
+			[
+				"Debug",
+				"Debug::_vx($tree"
+			],
+			[
+				"fieds",
+				"fields"
+			],
+			[
+				"user",
+				"userTableName"
+			],
+			[
+				"not",
+				"notifyClickHandler"
+			],
+			[
+				"naked_exclamation",
+				"naked_exclamation_black"
+			],
+			[
+				"CMS_B",
+				"CMS_BOOKING_TABLE_ID〔constant〕"
+			],
+			[
+				"H",
+				"H:i:s"
+			],
+			[
+				"project",
+				"projectid"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"time",
+				"timeoutId"
+			],
+			[
+				"onSc",
+				"onScreenService〔argument〕"
+			],
+			[
+				"page",
+				"pageY〔variable〕"
+			],
+			[
+				"las",
+				"lastPageY〔variable〕"
+			],
+			[
+				"is",
+				"isIn"
+			],
+			[
+				"add",
+				"addElement"
+			],
+			[
+				"CMS",
+				"CMS_POSTS_TABLE_ID"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"rende",
+				"renderorder"
+			],
+			[
+				"Pos",
+				"$PostsUIControlsFldId〔variable〕"
+			],
+			[
+				"pu",
+				"publishers"
+			],
+			[
+				"modif",
+				"modify"
+			],
+			[
+				"CMS_W",
+				"CMS_WRITERS_GROUP_ID"
+			],
+			[
+				"Utils_C",
+				"Utils_Config"
+			],
+			[
+				"Utils_Config",
+				"Utils_Config::$GROUPS_IDS['managers"
+			],
+			[
+				"file",
+				"fields"
+			],
+			[
+				"Fodler",
+				"Folder::getById"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"get",
+				"getById〔function〕"
+			],
+			[
+				"CMS_CON",
+				"CMS_CONTACT_PROVIDERS_FLD_ID〔constant〕"
+			],
+			[
+				"CMS_CONTACT_",
+				"CMS_CONTACT_JOBS_FLD_ID〔constant〕"
+			],
+			[
+				"No",
+				"Nombre"
+			],
+			[
+				"render",
+				"renderer"
+			],
+			[
+				"attachment",
+				"attachment_uri"
+			],
+			[
+				"UtilsC",
+				"Utils_Config::ADMIN_USR_PASS"
+			],
+			[
+				"fields",
+				"fields('id"
+			],
+			[
+				"View",
+				"Views_UIHandler〔class〕"
+			],
+			[
+				"font-wei",
+				"font-weight: 〔property〕"
+			],
+			[
+				"fint",
+				"font-variant: 〔property〕"
+			],
+			[
+				"font-f",
+				"font-family: 〔property〕"
+			],
+			[
+				"fon",
+				"font-size: 〔property〕"
+			],
+			[
+				"Contro",
+				"Controllers_Pages"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"UI",
+				"UICONTROLS_FLD_ID"
+			],
+			[
+				"_v",
+				"_vx〔function〕"
+			],
+			[
+				"fiel",
+				"$fieldNames〔variable〕"
+			],
+			[
+				"ex",
+				"$excludeFields〔variable〕"
+			],
+			[
+				"post",
+				"postData"
+			],
+			[
+				"FB_",
+				"$FB_remarketing_tag〔variable〕"
+			],
+			[
+				"template",
+				"getTemplateCode〔function〕"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"strp",
+				"strpos〔function〕"
+			],
+			[
+				"pre",
+				"$prefix〔variable〕"
+			],
+			[
+				"att",
+				"getAttachments〔function〕"
+			],
+			[
+				"desc",
+				"$description〔variable〕"
+			],
+			[
+				"ha",
+				"$havingTypology〔variable〕"
+			],
+			[
+				"Utils",
+				"Utils_Config"
+			],
+			[
+				"Configura",
+				"Configuration::FILES_PATH"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"overfl",
+				"overflow:hidden"
+			],
+			[
+				"TYP",
+				"$TYPOLOGIES_RELEVANCE〔variable〕"
+			],
+			[
+				"sort",
+				"$sortGuide〔variable〕"
+			],
+			[
+				"typolo",
+				"typologyName"
+			],
+			[
+				"display",
+				"displayOrder"
+			],
+			[
+				"pos",
+				"position: 〔property〕"
+			],
+			[
+				"conte",
+				"$contentPartial〔variable〕"
+			],
+			[
+				"partial",
+				"$partialTemplate〔variable〕"
+			],
+			[
+				"U",
+				"Utils_Config"
+			],
+			[
+				"asesor",
+				"$asesorConfig〔variable〕"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"galler",
+				"$gallery〔variable〕"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Models_P",
+				"Models_Posts〔class〕"
+			],
+			[
+				"Contr",
+				"Controllers_User〔class〕"
+			],
+			[
+				"new",
+				"$newParams〔variable〕"
+			],
+			[
+				"call_U",
+				"call_user_method〔function〕"
+			],
+			[
+				"Config",
+				"Configuration::FILES_PATH"
+			],
+			[
+				"ima",
+				"imgPath"
+			],
+			[
+				"De",
+				"Debug::_vx"
+			],
+			[
+				"fldP",
+				"$fldPostFile〔variable〕"
+			],
+			[
+				"mmg_tags",
+				"mmg_tags=1888"
+			],
+			[
+				"CMS_POS",
+				"CMS_POSTS_IMG_FLD_ID"
+			],
+			[
+				"ctrlfld",
+				"ctrlFldId"
+			],
+			[
+				"ctrlFld",
+				"ctrlFldId"
+			],
+			[
+				"has",
+				"hasAttachments"
+			],
+			[
+				"_F",
+				"$_FAKE_POST〔variable〕"
+			],
+			[
+				"id_",
+				"id_publicacion"
+			],
+			[
+				"DBM",
+				"DBManager::resultToObject($result"
+			],
+			[
+				"Db",
+				"Debug::_vx($post"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"postId",
+				"$postId〔variable〕"
+			],
+			[
+				"getPos",
+				"getPostById"
+			],
+			[
+				"rela",
+				"relatedProjects"
+			],
+			[
+				"news",
+				"$newsConfig〔variable〕"
+			],
+			[
+				"sl",
+				"$slug〔variable〕"
+			],
+			[
+				"is_n",
+				"is_numeric〔function〕"
+			],
+			[
+				"res",
+				"$result〔variable〕"
+			],
+			[
+				"cate",
+				"$categoryKey〔variable〕"
+			],
+			[
+				"sta",
+				"$start〔variable〕"
+			],
+			[
+				"category",
+				"categoryKey"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"templa",
+				"$templateName〔variable〕"
+			],
+			[
+				"pa",
+				"pageName"
+			],
+			[
+				"copy",
+				"copyDocument"
+			],
+			[
+				"cop",
+				"copyDocument〔function〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stores/ArtistsListStore.js",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Layouts.js",
+			"settings":
+			{
+				"buffer_size": 921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Footer.js",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/SearchBar.js",
+			"settings":
+			{
+				"buffer_size": 1055,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/actions/SearchActions.js",
+			"settings":
+			{
+				"buffer_size": 663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/actions/ArtistsListActions.js",
+			"settings":
+			{
+				"buffer_size": 361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stores/SearchStore.js",
+			"settings":
+			{
+				"buffer_size": 1291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ArtistsList.js",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ArtistItem.js",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "design-template.html",
+			"settings":
+			{
+				"buffer_size": 4823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/constants/appConstants.js",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/hit-combo-maker-demo/src/core/Dispatcher.js",
+			"settings":
+			{
+				"buffer_size": 175,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle m",
+				"View: Toggle Menu"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/hit-combo-maker",
+		"/opt/lampp/htdocs/hit-combo-maker/src",
+		"/opt/lampp/htdocs/hit-combo-maker/src/actions",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components",
+		"/opt/lampp/htdocs/hit-combo-maker/src/constants",
+		"/opt/lampp/htdocs/hit-combo-maker/src/core",
+		"/opt/lampp/htdocs/hit-combo-maker/src/stores",
+		"/opt/lampp/htdocs/hit-combo-maker/style",
+		"/opt/lampp/htdocs/hit-combo-maker/style/bootstrap",
+		"/opt/lampp/htdocs/hit-combo-maker-demo",
+		"/opt/lampp/htdocs/hit-combo-maker-demo/src",
+		"/opt/lampp/htdocs/hit-combo-maker-demo/src/decorators"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/hit-combo-maker/package.json",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/spotify-client/package.json",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/package.json",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/react.js",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/lib/React.js",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/spotify-client/src/index.js",
+		"/opt/lampp/htdocs/hit-combo-maker/README.md",
+		"/opt/lampp/htdocs/hit-combo-maker/src/core/appDispatcher.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/core/Dispatcher.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/constants/appConstants.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/constants/appConstants",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/Footer.js",
+		"/opt/lampp/htdocs/hit-combo-maker/index.html",
+		"/opt/lampp/htdocs/hit-combo-maker/style/main.css",
+		"/opt/lampp/htdocs/hit-combo-maker/webpack.config.js",
+		"/opt/lampp/htdocs/hit-combo-maker/webpack.config.production.js",
+		"/opt/lampp/htdocs/hit combo maker/package.json",
+		"/opt/lampp/htdocs/hit combo maker/webpack.config.js",
+		"/opt/lampp/htdocs/hit combo maker/webpack.config.production.js",
+		"/opt/lampp/htdocs/hit combo maker/.gitignore",
+		"/opt/lampp/htdocs/tests/conway/app/App.js",
+		"/opt/lampp/htdocs/tests/conway/app/src/libs/Seeder.js",
+		"/opt/lampp/htdocs/tests/conway/app/src/libs/Conway.js",
+		"/opt/lampp/htdocs/tests/conway/app/src/components/World.js",
+		"/opt/lampp/htdocs/tests/reactjs+conway's game of life/package.json",
+		"/opt/lampp/htdocs/tests/conway/app/src/Config.js",
+		"/opt/lampp/htdocs/tests/conway/app/index.js",
+		"/opt/lampp/htdocs/tests/conway/index.html",
+		"/opt/lampp/htdocs/tests/conway/app/src/components/Cell.js",
+		"/opt/lampp/htdocs/spotify-client/src/entities/Album.js",
+		"/opt/lampp/htdocs/tests/conway/app/App2.js",
+		"/opt/lampp/htdocs/spotify-client/src/classes/Browser.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/migrations/m20151023_cms_account_password_field.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/partials/login_bar_es.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/migrations/m20151019_cms_account_email_field.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/files/temp/clientes.csv",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/emprendimientos/emprendimientos-controllers.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers/Controllers_API_WS.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/home/home-services.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/app-directives.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/projecthome/projecthome-controller.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/init/init-controller.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/home/home-controller.js",
+		"/home/cosmitar/Documentos/After 7/edisur/Sistema Propietarios/clientes.csv",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/utils/config/dev/Utils_Config.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur/edisur-chatbutton.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/tipologias/tipologias-app.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/home/_home_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/tipologias/_tipologias_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur/edisur-uiscreen.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/buscador/_buscador_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/landings/_emprendimientos_landing_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/manantiales/_manantiales_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/Gruntfile.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/utils/externals/chat/contacto-online.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/landings/_emprendimientos_landing_es.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/migrations/m20151021_fix_priv_existant_posts.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Migration.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/news/_news-index_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/news/_news-press_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/news/_news-single-post_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/news/_news-category_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/empresa/_comunidad_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/empresa/_empresa_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/empresa/_equipo_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/empresa/_historia_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/asesor/_el-asesor-inmobiliario_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/enfoqueurbano/_enfoqueurbano_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/financiacion/_financiacion-e-inversion_en.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/financiacion/_financiacion-e-inversion_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/financiacion/financiacion-app.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/buscador/buscador-app.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/landings/landings-app.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/logs/log_2015-10-21.log",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Posts.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Home.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models/Models_Home.php",
+		"/home/cosmitar/Documentos/After 7/git - pruebas de deploy",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Devel.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_User.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/files/emails_templates/_WEB_contact.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/files/emails_templates/_CMS_publisher_notif.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/foldersHandlers/sectionsHandler.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/foldersHandlers/handler213.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/notify_publisher.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/views/Views_UIHandler.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/config.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/UI_login.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/partials/contact_bar_es.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur/edisur-menu.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur/edisur-contactform.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur/edisur-floatingmenubar.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/emprendimientos/emprendimientos-app.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/emprendimientos/_emprendimientos_es.devel.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/UI_manager.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/UI_scene.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/UI_dashboard.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/tagselect.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/migrations/m20151002_cms_users_bembership.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/foldersHandlers/commonHandler.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/docsgallery_enhanced.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/export_contacts.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/files/emails_templates/_CMS_publisher_notif.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Configuration.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end/utils/config/dev/Utils_SiteConfig.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/Utils_Helper.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Folder.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/.gitignore",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end/controllers/Controllers_Users.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Emprendimientos.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/edisur.sublime-project",
+		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/addkeyword.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers/Controllers_API_User.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/locale/es.json",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/style/naked.css",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/suggestedinput.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/Resize.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/activation/activation-directives.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers/Controllers_API_Helper.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/files/emails/[2015-09-17 11-20-55]CLARA.REYNA@gmail.com.html",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/utils/config/live/Utils_Config.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/utils/config/stage/Utils_Config.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models/Models_Posts.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Document.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/index.php",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/activation/activation-controller.js",
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/partials/_init_es.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/opt/lampp/htdocs/tests/conway/app",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/foldersHandlers",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/partials",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/booking",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/partials",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/files",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/utils",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/libs",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/partials",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/partials",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/utils/externals/chat",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs/edisur",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/api",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages/empresa",
+			"/opt/lampp/htdocs/edisur_plataforma_web/common",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/common",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components/news",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web",
+			"/opt/lampp/htdocs/edisur_plataforma_web",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/controllers",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/components",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/partials",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/pages",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/controllers",
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models",
+			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"searchActions",
+			"class=",
+			"col-sm-6 col-md-4",
+			"className",
+			"currentArtists",
+			"ArtistsList",
+			"constructor",
+			"tito",
+			"SearchBar",
+			"https://github.com/vasanthk/react-es6-webpack-boilerplate.",
+			"React",
+			"config",
+			"item",
+			"_currentElement",
+			"toUpperCase",
+			"React",
+			"Conway",
+			"Helper",
+			"console.l",
+			"esconde",
+			"clientCode",
+			"$scope.config.projects",
+			"selectedProject",
+			"clientCode",
+			"clientCodeIndex",
+			"dbnameIndex",
+			"getProjectResume",
+			"getResumes",
+			"getProjects",
+			"loadProjectResumes",
+			"ferrocons",
+			"uiscree",
+			"<div class=\"image-container\" style=\"background-image: url('../../{{project.preview_thumbnail}}');\"></div>",
+			"uiscreen.js",
+			"data-on-screen",
+			"onScreenService",
+			"service(\"onScre",
+			"edisur-thumbnails",
+			"responsive.",
+			"scree",
+			"chatbutt",
+			"9:30",
+			"9:30hs",
+			"9:30",
+			"changePrivilege",
+			"edisur-uiscreen",
+			"timeoutId",
+			"callCheck",
+			"Complejo",
+			"server",
+			"homeServerBridge",
+			"getProjects",
+			"Controllers_Devel",
+			"quicksea",
+			"quick",
+			"performSearch",
+			"searchBy",
+			"lastAc",
+			"Ext.Ajax",
+			"login",
+			"window",
+			"scrollTop",
+			"$location",
+			"location",
+			"$location",
+			"location",
+			"$location",
+			"contact.",
+			"contact",
+			"ng",
+			"watch",
+			"ng-repeat",
+			"ng-re",
+			"watch",
+			"floatingmenubar",
+			"floatin",
+			"angular",
+			"next",
+			"sendMail",
+			"next",
+			"isLoggedIn",
+			"loginWin",
+			"next",
+			"LOGIN_URL_SUCCESS_REDIRECT",
+			"next",
+			"LOGIN_URL_SUCCESS_REDIRECT",
+			"next",
+			"selectedElementId",
+			"commonCallback",
+			"path",
+			"{",
+			"hidden",
+			"handlerConfig",
+			"sel.length",
+			"Utils_Helper::sendEmail",
+			"GET",
+			"Controllers_User",
+			"SAVE_DOC_URL",
+			"me",
+			"export.",
+			"loadAss",
+			"posts",
+			"naked_exclamation_black",
+			"document_",
+			"exchangeData",
+			"$accRelTableName",
+			"$query",
+			"openImage",
+			"imageinterlace",
+			"create",
+			"comm",
+			"reyna",
+			"AIzaSyBGVfpMu07JaCKimS6b6ylPvOcH0FsxpSY",
+			"checkUserInSkylab",
+			"checkUserInSkylab\ncheckUserInSkylab",
+			"checkUserInSkylab",
+			"getUserFromSkylab",
+			"wsdl",
+			"new SoapClient",
+			"proxy",
+			"http://www.grupoedisur.com.ar/propietarios/",
+			"before",
+			"145",
+			"'config'",
+			"->config",
+			"config",
+			"owner",
+			"var params = {"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\\",
+			"    ",
+			"{images_legal_placeholder}",
+			"CMS_PUBLISHERS_GROUP_ID",
+			"->buffer",
+			" data-ng-",
+			"{fb_remarketing_id}",
+			"asesor-inmobiliario",
+			"",
+			"15 años",
+			"",
+			"sortGuide",
+			" ",
+			"3414",
+			" ",
+			"Click here to read this post",
+			"postgallerydocids",
+			"categoriesdocids",
+			"edisur_postsgallery",
+			"tags",
+			"Ñ",
+			"ñ",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"ñ",
+			"É",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"Ó",
+			"Í",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"ñ",
+			"á",
+			"\"",
+			"empresaConfig",
+			"'submenu_medios_placeholder' => $submenuMediosPartial,\n			'submenu_institucional_placeholder' => $submenuInstitucionalPartial,",
+			"$submenuMediosPartial = file_get_contents( \"web/front-end/partials/submenu_medios_$lang.html\" );\n		$submenuInstitucionalPartial = file_get_contents( \"web/front-end/partials/submenu_institucional_$lang.html\" );",
+			"ñ",
+			"í",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"ú",
+			" (",
+			"asesor",
+			"$sortGuide",
+			"mmgallerydocids",
+			"asesorData",
+			"data-ignore-gallery-element",
+			"videoGallery",
+			"UI_manager.loader.loadAsset('cms/front-end/js/jquery.min.js'",
+			"UI_manager.loader.loadAsset('jquery.min.js'",
+			"'EUVG'",
+			"fldVideoId",
+			", \"type\"",
+			"420, \"type\"",
+			"\"h\": 420",
+			"\"url\": \"../../{",
+			"getThumb( thumb,",
+			"thumb.mmg_thumbnail,",
+			"thumb.mmg_thumbnail",
+			"getThumb(",
+			"return TNs.getPath( item, width, height );",
+			"$scope.getThumbnailOnTheFly = function( item, width, height ){",
+			"url('{{getThumbnailOnTheFly( thumb, 660,420)}}')",
+			"{getThumbnailOnTheFly( thumb, 660,420)}",
+			"{{getThumbnailOnTheFly( thumb, 660,420)}}",
+			"../../",
+			"Find us on",
+			"CLick here to read this post",
+			"",
+			"$financiacion",
+			"related-{{project.typologyKeyName}}",
+			"Site.featuredProjects.",
+			"slideshowdocids",
+			"manantiales",
+			"mainLoadOk",
+			"mainGallery",
+			"edisur_manantialesgallery",
+			"thisGallery.",
+			"",
+			"self::getSiteUrl() . \"",
+			"/site/",
+			"getNewDocument",
+			"$sortGuide",
+			"projdocorg",
+			"docGallery",
+			"<a href=\\\"tel:+5493514678500\\\" target=\\\"_new\\\">+54 351 467 8500</a>",
+			"Ingresá",
+			"esa tu",
+			"setValue",
+			"	data-ng-",
+			"data-ng-click",
+			"data-ng-class",
+			" data-ng-",
+			"data-ng-",
+			"updateAboutGallery",
+			"aboutGallery",
+			"abutGallery",
+			"aboutusgallerydocids",
+			"newsGallery",
+			"mmg_",
+			"edisur_homeslidergallery",
+			"edisur_aboutgallery",
+			"edisur_homenewsgallery",
+			"",
+			"href=\"#\"",
+			"../../",
+			"subscriber",
+			" data-ng-",
+			"projectcolor",
+			"$window.jQuery",
+			"showNewImageWindow",
+			"Controllers_EdisurMenus",
+			"handler.",
+			"edisur_webdocsgallery",
+			"projectData"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/stores/ArtistsListStore.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								859,
+								859
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 354.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/Layouts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/Footer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/SearchBar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/actions/SearchActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/actions/ArtistsListActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/stores/SearchStore.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								800,
+								800
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/components/ArtistsList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/components/ArtistItem.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "design-template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4612,
+								4612
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/constants/appConstants.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/opt/lampp/htdocs/hit-combo-maker-demo/src/core/Dispatcher.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "hit-combo-maker.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main",
+				"hit-combo-maker/style/main.css"
+			],
+			[
+				"main.c",
+				"hit-combo-maker/style/main.css"
+			],
+			[
+				"index",
+				"hit-combo-maker/index.html"
+			],
+			[
+				"inde",
+				"hit-combo-maker/index.html"
+			],
+			[
+				"app",
+				"hit-combo-maker/src/App.js"
+			],
+			[
+				"appc",
+				"hit-combo-maker/src/constants/appConstants.js"
+			],
+			[
+				"searchstor",
+				"hit-combo-maker/src/stores/SearchStore.js"
+			],
+			[
+				"appcon",
+				"hit-combo-maker/src/constants/appConstants.js"
+			],
+			[
+				"login_",
+				"web/front-end/partials/login_bar_es.html"
+			],
+			[
+				"clientes",
+				"cms/front-end/files/temp/clientes.csv"
+			],
+			[
+				"_ws",
+				"api/back-end/controllers/Controllers_API_WS.php"
+			],
+			[
+				"edisur-uiscreen.js",
+				"web/front-end/js/libs/edisur/edisur-uiscreen.js"
+			],
+			[
+				"grunt",
+				"web/front-end/Gruntfile.js"
+			],
+			[
+				"contacto-online.php",
+				"web/back-end/utils/externals/chat/contacto-online.php"
+			],
+			[
+				"_empren",
+				"web/front-end/pages/landings/_emprendimientos_landing_es.html"
+			],
+			[
+				"utils_config",
+				"cms/back-end/utils/config/dev/Utils_Config.php"
+			],
+			[
+				"2015-10-21.log",
+				"cms/logs/log_2015-10-21.log"
+			],
+			[
+				"migra",
+				"cms/back-end/controllers/Controllers_Migration.php"
+			],
+			[
+				"moels_hom",
+				"cms/back-end/models/Models_Home.php"
+			],
+			[
+				"controllers_home",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"controllres_po",
+				"cms/back-end/controllers/Controllers_Posts.php"
+			],
+			[
+				"_wa",
+				"api/back-end/controllers/Controllers_API_WS.php"
+			],
+			[
+				"controllers_devel",
+				"cms/back-end/controllers/Controllers_Devel.php"
+			],
+			[
+				"controllers_deve",
+				"cms/back-end/controllers/Controllers_Devel.php"
+			],
+			[
+				"contr",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"views_uiha",
+				"common/back-end/views/Views_UIHandler.php"
+			],
+			[
+				"comm",
+				"cms/front-end/js/foldersHandlers/commonHandler.js"
+			],
+			[
+				"controllers_user",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"notif",
+				"cms/front-end/js/uicontrols/notify_publisher.js"
+			],
+			[
+				"controllers_",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"controllers",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"folder",
+				"common/back-end/utils/externals/cms/Folder.php"
+			],
+			[
+				"migration",
+				"cms/back-end/controllers/migrations/m20151019_cms_post_quick_search_slug.php"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"utils_sitec",
+				"site/back-end/utils/config/dev/Utils_SiteConfig.php"
+			],
+			[
+				"common",
+				"cms/front-end/js/foldersHandlers/commonHandler.js"
+			],
+			[
+				"contro",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"controllers_empre",
+				"cms/back-end/controllers/Controllers_Emprendimientos.php"
+			],
+			[
+				"ui_sce",
+				"cms/front-end/js/UI_scene.js"
+			],
+			[
+				"con",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"ui_lo",
+				"cms/front-end/js/UI_login.js"
+			],
+			[
+				"ui_",
+				"cms/front-end/js/UI_manager.js"
+			],
+			[
+				"edisur.su",
+				"edisur.sublime-project"
+			],
+			[
+				".gitig",
+				".gitignore"
+			],
+			[
+				"_cms",
+				"web/front-end/files/emails_templates/_CMS_publisher_notif.html"
+			],
+			[
+				"_w",
+				"web/front-end/files/emails_templates/_WEB_contact.html"
+			],
+			[
+				"floatingmenubar",
+				"web/front-end/js/libs/edisur/edisur-floatingmenubar.js"
+			],
+			[
+				"ui_man",
+				"cms/front-end/js/UI_manager.js"
+			],
+			[
+				"ui",
+				"common/back-end/views/Views_UIHandler.php"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"helper",
+				"common/back-end/utils/Utils_Helper.php"
+			],
+			[
+				"controllersus",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"commonh",
+				"cms/front-end/js/foldersHandlers/commonHandler.js"
+			],
+			[
+				"es.",
+				"cms/front-end/js/locale/es.json"
+			],
+			[
+				"es.js",
+				"cms/front-end/js/locale/es.json"
+			],
+			[
+				"es.json",
+				"cms/front-end/js/locale/es.json"
+			],
+			[
+				".css",
+				"cms/front-end/style/naked.css"
+			],
+			[
+				"_sp_ra",
+				"site/front-end/files/emails_templates/_SP_RAC_notif_reg.html"
+			],
+			[
+				"utils_con",
+				"cms/back-end/utils/config/dev/Utils_Config.php"
+			],
+			[
+				"confi",
+				"config.php"
+			],
+			[
+				"controllers_e",
+				"cms/back-end/controllers/Controllers_Emprendimientos.php"
+			],
+			[
+				"activation-dire",
+				"site/front-end/jsapp/components/activation/activation-directives.js"
+			],
+			[
+				"clara.re",
+				"cms/front-end/files/emails/[2015-09-17 11-20-55]CLARA.REYNA@gmail.com.html"
+			],
+			[
+				"utils_c",
+				"cms/back-end/utils/config/dev/Utils_Config.php"
+			],
+			[
+				"utils",
+				"cms/back-end/utils/config/live/Utils_Config.php"
+			],
+			[
+				"utils_conf",
+				"cms/back-end/utils/config/dev/Utils_Config.php"
+			],
+			[
+				"models_home",
+				"cms/back-end/models/Models_Home.php"
+			],
+			[
+				"document",
+				"common/back-end/utils/externals/cms/Document.php"
+			],
+			[
+				"models_user",
+				"cms/back-end/models/Models_User.php"
+			],
+			[
+				"utils_red",
+				"web/back-end/utils/Utils_Redirect.php"
+			],
+			[
+				"controllers_pages",
+				"site/back-end/controllers/Controllers_Pages.php"
+			],
+			[
+				"main.css",
+				"site/front-end/style/grupoedisur_sistema-propietarios_main.css"
+			],
+			[
+				"controllers_boo",
+				"site/back-end/controllers/Controllers_Booking.php"
+			],
+			[
+				"i18",
+				"site/front-end/jsapp/i18n/resources-locale_es.js"
+			],
+			[
+				"controllers_booking",
+				"site/back-end/controllers/Controllers_Booking.php"
+			],
+			[
+				"controllers_api_user",
+				"api/back-end/controllers/Controllers_API_User.php"
+			],
+			[
+				"user",
+				"common/back-end/utils/externals/cms/User.php"
+			],
+			[
+				"controllers_users",
+				"site/back-end/controllers/Controllers_Users.php"
+			],
+			[
+				"folderpr",
+				"common/back-end/utils/externals/cms/FolderPrivileges.php"
+			],
+			[
+				"models_mayo",
+				"cms/back-end/models/Models_Mayors.php"
+			],
+			[
+				"cv-",
+				"web/front-end/build/_cv-form_en.html"
+			],
+			[
+				"sistema-propietar",
+				"site/front-end/style/grupoedisur_sistema-propietarios_main.css"
+			],
+			[
+				"controllers_ap",
+				"api/back-end/controllers/Controllers_API_Helper.php"
+			],
+			[
+				"controllers_page",
+				"edisur_plataforma_web/web/back-end/controllers/Controllers_Pages.php"
+			],
+			[
+				"controllerspagesr",
+				"edisur_plataforma_web/web/back-end/controllers/Controllers_PagesRealStateProjects.php"
+			],
+			[
+				"models_em",
+				"edisur_plataforma_web/cms/back-end/models/Models_Emprendimientos.php"
+			],
+			[
+				"migr",
+				"edisur_plataforma_web/cms/back-end/controllers/Controllers_Migration.php"
+			],
+			[
+				"_service",
+				"web/back-end/controllers/Controllers_Services.php"
+			],
+			[
+				"controllers_services",
+				"web/back-end/controllers/Controllers_Services.php"
+			],
+			[
+				"models_empre",
+				"cms/back-end/models/Models_Emprendimientos.php"
+			],
+			[
+				"manantiales_es",
+				"web/front-end/pages/manantiales/_manantiales_es.devel.html"
+			],
+			[
+				"news_category_es",
+				"web/front-end/pages/news/_news-category_es.devel.html"
+			],
+			[
+				"news_categ",
+				"web/front-end/pages/news/_news-category_en.devel.html"
+			],
+			[
+				"home_es.de",
+				"web/front-end/pages/home/_home_es.devel.html"
+			],
+			[
+				"utils_webconfig.php",
+				"web/back-end/utils/config/dev/Utils_WebConfig.php"
+			],
+			[
+				"gruntf",
+				"web/front-end/Gruntfile.js"
+			],
+			[
+				"modesl_news",
+				"web/back-end/models/Models_News.php"
+			],
+			[
+				"emprendimientos_es_de",
+				"web/front-end/pages/emprendimientos/_emprendimientos_es.devel.html"
+			],
+			[
+				"migrat",
+				"cms/back-end/controllers/Controllers_Migration.php"
+			],
+			[
+				"models_new",
+				"web/back-end/models/Models_News.php"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"configu",
+				"common/back-end/utils/externals/cms/Configuration.php"
+			],
+			[
+				"controller",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"observa",
+				"common/back-end/utils/externals/cms/Observable.php"
+			],
+			[
+				"2015-10-03.log",
+				"cms/logs/log_2015-01-03.log"
+			],
+			[
+				"03.log",
+				"cms/logs/log_2014-10-03.log"
+			],
+			[
+				"models_hom",
+				"cms/back-end/models/Models_Home.php"
+			],
+			[
+				"models_pos",
+				"cms/back-end/models/Models_Posts.php"
+			],
+			[
+				"controllershome",
+				"cms/back-end/controllers/Controllers_Home.php"
+			],
+			[
+				"controllersuser",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"es.jso",
+				"cms/front-end/js/locale/es.json"
+			],
+			[
+				"acc",
+				"common/back-end/utils/externals/cms/Account.php"
+			],
+			[
+				"controllers_use",
+				"cms/back-end/controllers/Controllers_User.php"
+			],
+			[
+				"models_posts",
+				"cms/back-end/models/Models_Posts.php"
+			],
+			[
+				"controllers_posts",
+				"cms/back-end/controllers/Controllers_Posts.php"
+			],
+			[
+				"devel",
+				"cms/back-end/controllers/Controllers_Devel.php"
+			],
+			[
+				"controllers_files",
+				"cms/back-end/controllers/Controllers_Files.php"
+			],
+			[
+				"files",
+				"common/back-end/utils/externals/cms/Files.php"
+			],
+			[
+				"file",
+				"cms/back-end/controllers/Controllers_Files.php"
+			],
+			[
+				"configura",
+				"common/back-end/utils/externals/cms/Configuration.php"
+			],
+			[
+				"utils_co",
+				"cms/back-end/utils/config/dev/Utils_Config.php"
+			],
+			[
+				"equipo_es.de",
+				"web/front-end/pages/empresa/_equipo_es.devel.html"
+			],
+			[
+				"empresa_es.de",
+				"web/front-end/pages/empresa/_empresa_es.devel.html"
+			],
+			[
+				"pagesform",
+				"web/back-end/controllers/Controllers_PagesForms.php"
+			],
+			[
+				"man.css",
+				"web/front-end/style/grupoedisur_main.css"
+			],
+			[
+				"_home_es.dev",
+				"web/front-end/pages/home/_home_es.devel.html"
+			],
+			[
+				"controllers_pagesf",
+				"web/back-end/controllers/Controllers_PagesForms.php"
+			],
+			[
+				"_cv-form_es.de",
+				"web/front-end/pages/forms/_cv-form_es.devel.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "edis",
+		"selected_items":
+		[
+			[
+				"edis",
+				"/opt/lampp/htdocs/edisur_plataforma_web/edisur.sublime-workspace"
+			],
+			[
+				"ed",
+				"/opt/lampp/htdocs/edisur_plataforma_web/edisur.sublime-workspace"
+			],
+			[
+				"big",
+				"/opt/lampp/htdocs/bigblock/wp-content/themes/Big Block WP Theme/bigblock.sublime-project"
+			],
+			[
+				"bigb",
+				"/opt/lampp/htdocs/bigblock/wp-content/themes/Big Block WP Theme/bigblock.sublime-project"
+			],
+			[
+				"",
+				"/opt/lampp/htdocs/spotify-client/spotify-client.sublime-project"
+			],
+			[
+				"ts",
+				"/opt/lampp/htdocs/TSMM/TSMM.sublime-project"
+			],
+			[
+				"tsmm",
+				"/opt/lampp/htdocs/TSMM/TSMM.sublime-project"
+			],
+			[
+				"tsm",
+				"/opt/lampp/htdocs/TSMM/TSMM.sublime-project"
+			],
+			[
+				"spoti",
+				"/opt/lampp/htdocs/spotify-client/spotify-client.sublime-project"
+			],
+			[
+				"auto",
+				"/opt/lampp/htdocs/autotall/autotal-landing.sublime-project"
+			],
+			[
+				"bigbl",
+				"/opt/lampp/htdocs/bigblock/wp-content/themes/Big Block WP Theme/bigblock.sublime-project"
+			],
+			[
+				"bigblo",
+				"/opt/lampp/htdocs/bigblock/wp-content/themes/Big Block WP Theme/bigblock.sublime-project"
+			],
+			[
+				"nake",
+				"/opt/lampp/htdocs/Naked/naked.sublime-project"
+			],
+			[
+				"spot",
+				"/opt/lampp/htdocs/spotify-client/spotify-client.sublime-project"
+			],
+			[
+				"tpl",
+				"/opt/lampp/htdocs/tpl/tpl.sublime-project"
+			],
+			[
+				"carp",
+				"~/Development/carpitech/carpitech.sublime-project"
+			],
+			[
+				"car",
+				"~/Development/carpitech/carpitech.sublime-project"
+			],
+			[
+				"codd",
+				"/opt/lampp/htdocs/coddin/coddin.sublime-project"
+			],
+			[
+				"nex",
+				"/opt/lampp/htdocs/TSMM/nextermedia/nextermedia.sublime-workspace"
+			],
+			[
+				"aut",
+				"/opt/lampp/htdocs/autotall/autotal-landing.sublime-project"
+			],
+			[
+				"af",
+				"/opt/lampp/htdocs/afterseven/afterseven.sublime-project"
+			],
+			[
+				"au",
+				"/opt/lampp/htdocs/autotall/autotal-landing.sublime-project"
+			],
+			[
+				"spo",
+				"/opt/lampp/htdocs/tests/demo/fix-sporn-landing.sublime-project"
+			],
+			[
+				"autota",
+				"/opt/lampp/htdocs/autotall/autotal-landing.sublime-project"
+			],
+			[
+				"w",
+				"/opt/lampp/htdocs/wanderingowl/wanderingowl.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 352.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
