@@ -8,5 +8,6 @@ export default {
     ARTIST_NOT_FOUND: 'artist-not-found',
     ARTIST_CLEAR_LIST: 'artist-clear-list',
     COMBO_ADD_NEW: 'combo-add-new',
-    COMBO_CLEAR_LIST: 'combo-clear-list'
+    COMBO_CLEAR_LIST: 'combo-clear-list',
+    TRACK_REMOVE: 'track_remove'
 };

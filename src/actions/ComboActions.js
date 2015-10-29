@@ -23,6 +23,12 @@ let comboActions = {
             artist: artist
         });
     },
+    removeTrack(track){
+        Dispatcher.dispatch({
+            type: constants.TRACK_REMOVE,
+            track: track
+        });
+    },
     suggestArtist: () => {
         let artists = ArtistsListStore.getList();
         let artistsLeft = ArtistsListStore.getLeft();

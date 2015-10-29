@@ -1,7 +1,12 @@
 'use strict'
 import Dispatcher from './../core/appDispatcher';
 import {EventEmitter} from 'events';
-import {COMBO_ADD_NEW,COMBO_CLEAR_LIST,ARTIST_REMOVE} from './../constants/appConstants';
+import {
+    COMBO_ADD_NEW,
+    COMBO_CLEAR_LIST,
+    ARTIST_REMOVE,
+    TRACK_REMOVE
+} from './../constants/appConstants';
 
 let CHANGE_EVENT = 'change';
 
@@ -29,6 +34,12 @@ class CombosListStore extends EventEmitter {
 
                 case COMBO_CLEAR_LIST: {
                     this._list = [];
+                    this._emmitChange();
+                    break;
+                }
+
+                case TRACK_REMOVE: {
+                    //@TODO perform replace
                     this._emmitChange();
                     break;
                 }
