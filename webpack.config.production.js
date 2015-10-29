@@ -47,7 +47,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: '/static/'
   },
   resolve: {
     extensions: ['', '.js']
@@ -71,7 +71,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loaders: ['babel'],
-        include: path.join(__dirname, 'scripts')
+        include: path.join(__dirname, 'src')
       }
     ]
   }
