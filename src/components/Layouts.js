@@ -35,7 +35,7 @@ class LayoutHome extends Component {
             <section className="row text-center Layout-tracklist-row" style={panelsConditionaStyle}>
                 <div className="panel panel-default">
                     <div className="panel-body">
-                        <CombosList currentList={state.currentCombos}/>
+                        <CombosList currentList={state.currentCombos} playlistDuration={state.playlistDuration}/>
                     </div>
                 </div>
             </section>

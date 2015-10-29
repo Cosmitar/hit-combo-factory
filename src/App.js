@@ -13,7 +13,8 @@ let getState = () => {
         currentSearch: SearchStore.getSearch(),
         currentArtists: ArtistsListStore.getList(),
         totalArtists: ArtistsListStore.getTotal(),
-        currentCombos: CombosListStore.getList()
+        currentCombos: CombosListStore.getList(),
+        playlistDuration: CombosListStore.getDuration()
     }
 };
 
