@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+}
+
+.App-container {
+    width: 100%;
+    text-align: center;
+}
+
+.Layout-tracklist-row {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.SearchBar-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.SearchBar-form button {
+    margin-left: 10px;
+}
+
+.Footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Artist-card {
+    min-width: 150px;
+    max-width: 10%;
+    float: none;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.Artist-card h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.Artist-img-container {
+    min-height: 75px;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+
+.ComboList-container {
+    margin-top: 100px;
+    /*max-width: 900px;*/
+    margin: 0 auto;
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+.ComboItem-item-row {
+    opacity: 0.5;
+    background-color: #eaeaea;
+    color: black;
+}
+
+.ComboList-container .ComboItem-item-row td {
+    border: 0;
+    text-align: left;
+}
+
+.ComboItem-first-cell {
+    width: 100%;
+}
