@@ -10,7 +10,7 @@ if you LOVE the artist, ensures more than one song, cool!
 
 if you're ok with the artist, two songs are enough, yeah!
 
-if you don't like the artist, better remove him/her from the playlist (WIP)
+if you don't like the artist, better remove him/her from the playlist
 
 ##Combos has types (WIP)
 You can choose from a combination of
