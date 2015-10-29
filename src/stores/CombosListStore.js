@@ -1,7 +1,7 @@
 'use strict'
 import Dispatcher from './../core/appDispatcher';
 import {EventEmitter} from 'events';
-import {COMBO_ADD_NEW,COMBO_CLEAR_LIST} from './../constants/appConstants';
+import {COMBO_ADD_NEW,COMBO_CLEAR_LIST,ARTIST_REMOVE} from './../constants/appConstants';
 
 let CHANGE_EVENT = 'change';
 
@@ -9,6 +9,7 @@ class CombosListStore extends EventEmitter {
     constructor(){
         super();
         this._list = [];
+        this.dispatchToken = null;
         this._registerDispatcher();
     }
 
@@ -17,7 +18,7 @@ class CombosListStore extends EventEmitter {
     }
 
     _registerDispatcher() {
-        Dispatcher.register((action) => {
+        this.dispatchToken = Dispatcher.register((action) => {
             switch(action.type) {
 
                 case COMBO_ADD_NEW: {
@@ -32,10 +33,20 @@ class CombosListStore extends EventEmitter {
                     break;
                 }
 
+                case ARTIST_REMOVE: {
+                    let filteredList = this._list.filter((combo) => {
+                        return combo.artist.id != action.artist.id;
+                    })
+                    this._list = filteredList;
+                    //this._emmitChange();
+                    break;
+                }
+
                 default: {
                     break;
                 }
             }
+            return action;
         });
     }
 

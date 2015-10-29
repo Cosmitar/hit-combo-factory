@@ -45,7 +45,6 @@ class SearchBar extends Component {
     }
 
     _handleSubmit(e) {
-        console.log('submit');
         e.preventDefault();
         let searchNode = this.refs.search.getDOMNode();
         let text = searchNode.value.trim();

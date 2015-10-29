@@ -10,7 +10,7 @@ class ArtistItem extends Component {
         };
         return (
             <div className="col-sm-6 col-md-4 Artist-card">
-                <div className="thumbnail">
+                <div className="thumbnail Artist-card-front">
                     <div>
                         <div style={coverStyle} className="Artist-img-container img-responsive" />
                     </div>

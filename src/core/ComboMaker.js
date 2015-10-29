@@ -39,7 +39,6 @@ class ComboMaker {
         let suggestionOptions = new Map();
         let promises = [], promise;
         let retVal = new Promise((resolve, reject) => {
-
             for( let artist of referenceArtists ){
                 promise = artist.getRelatedArtists();
                 promise.then((artistsCollection) => {

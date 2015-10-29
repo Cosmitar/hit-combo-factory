@@ -17,6 +17,12 @@ let comboActions = {
             combo: combo
         });
     },
+    removeComboByArtist: (artist) => {
+        Dispatcher.dispatch({
+            type: constants.COMBO_REMOVE,
+            artist: artist
+        });
+    },
     suggestArtist: () => {
         let artists = ArtistsListStore.getList();
         let artistsLeft = ArtistsListStore.getLeft();

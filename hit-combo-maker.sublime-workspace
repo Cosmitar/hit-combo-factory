@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"_se",
+				"_setInitialUIState"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"class",
+				"className〔variable〕"
+			],
+			[
+				"se",
+				"selectArtist"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"Search",
+				"SearchActions"
+			],
+			[
+				"clas",
+				"className〔variable〕"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"disa",
+				"disableSuggestion"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Combo",
+				"ComboList"
+			],
+			[
+				"com",
+				"comboMaker"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
 				"back",
 				"background-position"
 			],
@@ -50,10 +118,6 @@
 			[
 				"bo",
 				"bottom"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"clear",
@@ -114,14 +178,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"tex",
-				"text-transform"
 			],
 			[
 				"font-s",
@@ -296,10 +352,6 @@
 				"getTemplateCode〔function〕"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"strp",
 				"strpos〔function〕"
 			],
@@ -326,10 +378,6 @@
 			[
 				"Configura",
 				"Configuration::FILES_PATH"
-			],
-			[
-				"paddin",
-				"padding-bottom"
 			],
 			[
 				"overfl",
@@ -466,160 +514,40 @@
 			[
 				"rela",
 				"relatedProjects"
-			],
-			[
-				"news",
-				"$newsConfig〔variable〕"
-			],
-			[
-				"sl",
-				"$slug〔variable〕"
-			],
-			[
-				"is_n",
-				"is_numeric〔function〕"
-			],
-			[
-				"res",
-				"$result〔variable〕"
-			],
-			[
-				"cate",
-				"$categoryKey〔variable〕"
-			],
-			[
-				"sta",
-				"$start〔variable〕"
-			],
-			[
-				"category",
-				"categoryKey"
-			],
-			[
-				"stat",
-				"static"
-			],
-			[
-				"templa",
-				"$templateName〔variable〕"
-			],
-			[
-				"pa",
-				"pageName"
-			],
-			[
-				"copy",
-				"copyDocument"
-			],
-			[
-				"cop",
-				"copyDocument〔function〕"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/index.js",
+			"file": "webpack.config.production.js",
 			"settings":
 			{
-				"buffer_size": 96,
+				"buffer_size": 2355,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/App.js",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1117,
+				"buffer_size": 1044,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/stores/ArtistsListStore.js",
+			"file": "src/core/ComboMaker.js",
 			"settings":
 			{
-				"buffer_size": 1575,
+				"buffer_size": 2215,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/Layouts.js",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 921,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style/main.css",
-			"settings":
-			{
-				"buffer_size": 463,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/Footer.js",
-			"settings":
-			{
-				"buffer_size": 280,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/SearchBar.js",
-			"settings":
-			{
-				"buffer_size": 1055,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/actions/SearchActions.js",
-			"settings":
-			{
-				"buffer_size": 663,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/actions/ArtistsListActions.js",
-			"settings":
-			{
-				"buffer_size": 361,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/stores/SearchStore.js",
-			"settings":
-			{
-				"buffer_size": 1291,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/ArtistsList.js",
-			"settings":
-			{
-				"buffer_size": 526,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/ArtistItem.js",
-			"settings":
-			{
-				"buffer_size": 821,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "design-template.html",
-			"settings":
-			{
-				"buffer_size": 4823,
+				"buffer_size": 49,
 				"line_ending": "Unix"
 			}
 		},
@@ -627,23 +555,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/constants/appConstants.js",
-			"settings":
-			{
-				"buffer_size": 150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/opt/lampp/htdocs/hit-combo-maker-demo/src/core/Dispatcher.js",
-			"settings":
-			{
-				"buffer_size": 175,
+				"buffer_size": 639,
 				"line_ending": "Unix"
 			}
 		}
@@ -706,35 +618,51 @@
 	[
 		"/opt/lampp/htdocs/hit-combo-maker",
 		"/opt/lampp/htdocs/hit-combo-maker/src",
-		"/opt/lampp/htdocs/hit-combo-maker/src/actions",
-		"/opt/lampp/htdocs/hit-combo-maker/src/components",
-		"/opt/lampp/htdocs/hit-combo-maker/src/constants",
 		"/opt/lampp/htdocs/hit-combo-maker/src/core",
-		"/opt/lampp/htdocs/hit-combo-maker/src/stores",
-		"/opt/lampp/htdocs/hit-combo-maker/style",
-		"/opt/lampp/htdocs/hit-combo-maker/style/bootstrap",
-		"/opt/lampp/htdocs/hit-combo-maker-demo",
-		"/opt/lampp/htdocs/hit-combo-maker-demo/src",
-		"/opt/lampp/htdocs/hit-combo-maker-demo/src/decorators"
+		"/opt/lampp/htdocs/hit-combo-maker-demo/src"
 	],
 	"file_history":
 	[
+		"/home/cosmitar/Documentos/After 7/git - pruebas de deploy",
+		"/opt/lampp/htdocs/hit-combo-maker-demo/.gitignore",
+		"/opt/lampp/htdocs/hit-combo-maker/bundle.js",
+		"/opt/lampp/htdocs/hit-combo-maker-demo/src/core/Dispatcher.js",
+		"/opt/lampp/htdocs/hit-combo-maker/webpack.config.production.js",
+		"/opt/lampp/htdocs/hit-combo-maker/index.html",
+		"/opt/lampp/htdocs/hit-combo-maker/design-template.html",
+		"/opt/lampp/htdocs/hit-combo-maker/style/bootstrap/bootstrap.min.css",
+		"/opt/lampp/htdocs/hit-combo-maker/style/bootstrap/bootstrap.css",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/ComboItem.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/CombosList.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/stores/SearchStore.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/actions/ArtistsListActions.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/constants/appConstants.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/actions/SearchActions.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/actions/ComboActions.js",
 		"/opt/lampp/htdocs/hit-combo-maker/package.json",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/SearchBar.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/Footer.js",
+		"/opt/lampp/htdocs/hit-combo-maker/README.md",
+		"/opt/lampp/htdocs/hit-combo-maker/style/main.css",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/ArtistItem.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/components/Layouts.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/core/ComboMaker.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/stores/CombosListStore.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/stores/ArtistsListStore.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/App.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/index.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/core/Helper.js",
+		"/opt/lampp/htdocs/hit-combo-maker/node_modules/babel-loader/test/fixtures/constant.js",
+		"/opt/lampp/htdocs/hit-combo-maker/src/stores/ComboStore.js",
 		"/opt/lampp/htdocs/hit-combo-maker/node_modules/spotify-client/package.json",
 		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/package.json",
 		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/react.js",
 		"/opt/lampp/htdocs/hit-combo-maker/node_modules/react/lib/React.js",
 		"/opt/lampp/htdocs/hit-combo-maker/node_modules/spotify-client/src/index.js",
-		"/opt/lampp/htdocs/hit-combo-maker/README.md",
 		"/opt/lampp/htdocs/hit-combo-maker/src/core/appDispatcher.js",
 		"/opt/lampp/htdocs/hit-combo-maker/src/core/Dispatcher.js",
-		"/opt/lampp/htdocs/hit-combo-maker/src/constants/appConstants.js",
 		"/opt/lampp/htdocs/hit-combo-maker/src/constants/appConstants",
-		"/opt/lampp/htdocs/hit-combo-maker/src/components/Footer.js",
-		"/opt/lampp/htdocs/hit-combo-maker/index.html",
-		"/opt/lampp/htdocs/hit-combo-maker/style/main.css",
 		"/opt/lampp/htdocs/hit-combo-maker/webpack.config.js",
-		"/opt/lampp/htdocs/hit-combo-maker/webpack.config.production.js",
 		"/opt/lampp/htdocs/hit combo maker/package.json",
 		"/opt/lampp/htdocs/hit combo maker/webpack.config.js",
 		"/opt/lampp/htdocs/hit combo maker/webpack.config.production.js",
@@ -796,7 +724,6 @@
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Posts.php",
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Home.php",
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models/Models_Home.php",
-		"/home/cosmitar/Documentos/After 7/git - pruebas de deploy",
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Devel.php",
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_User.php",
 		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/files/emails_templates/_WEB_contact.html",
@@ -823,30 +750,7 @@
 		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/export_contacts.js",
 		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/files/emails_templates/_CMS_publisher_notif.html",
 		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Configuration.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end/utils/config/dev/Utils_SiteConfig.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/Utils_Helper.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Folder.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/.gitignore",
-		"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end/controllers/Controllers_Users.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers/Controllers_Emprendimientos.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/edisur.sublime-project",
-		"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/addkeyword.js",
-		"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers/Controllers_API_User.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/locale/es.json",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/style/naked.css",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/js/uicontrols/suggestedinput.js",
-		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/Resize.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/activation/activation-directives.js",
-		"/opt/lampp/htdocs/edisur_plataforma_web/api/back-end/controllers/Controllers_API_Helper.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/front-end/files/emails/[2015-09-17 11-20-55]CLARA.REYNA@gmail.com.html",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/utils/config/live/Utils_Config.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/utils/config/stage/Utils_Config.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models/Models_Posts.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/common/back-end/utils/externals/cms/Document.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/index.php",
-		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp/components/activation/activation-controller.js",
-		"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/partials/_init_es.html"
+		"/opt/lampp/htdocs/edisur_plataforma_web/site/back-end/utils/config/dev/Utils_SiteConfig.php"
 	],
 	"find":
 	{
@@ -857,6 +761,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/opt/lampp/htdocs/hit-combo-maker/src",
 			"/opt/lampp/htdocs/tests/conway/app",
 			"/opt/lampp/htdocs/edisur_plataforma_web/site/front-end/jsapp",
 			"/opt/lampp/htdocs/edisur_plataforma_web/web/front-end/js/libs",
@@ -983,8 +888,7 @@
 			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/controllers",
 			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models",
 			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/controllers",
-			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models",
-			"/opt/lampp/htdocs/edisur_plataforma_web/cms/back-end/models"
+			"/opt/lampp/htdocs/edisur_plataforma_web/web/back-end/models"
 		]
 	},
 	"find_state":
@@ -992,6 +896,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ArtistsListStore",
+			"totalArtists",
+			"selectArtist",
+			"eventTypeAddNew",
+			"suggestion",
+			"Artist-card",
+			"comboActions",
+			"constants",
+			"ComboItem-item-row",
+			"../fonts/",
+			"fonts/",
+			"fonts",
+			"makeCombo",
+			"ARTIST_ADD_NEW",
+			"COMBO_ADD_NEW",
+			"combolist",
+			"CombosListStore",
+			"class=",
+			"ArtistItem",
+			"ArtistsList",
+			"ComboListStore",
+			"ArtistsListStore",
 			"searchActions",
 			"class=",
 			"col-sm-6 col-md-4",
@@ -1097,29 +1023,7 @@
 			"naked_exclamation_black",
 			"document_",
 			"exchangeData",
-			"$accRelTableName",
-			"$query",
-			"openImage",
-			"imageinterlace",
-			"create",
-			"comm",
-			"reyna",
-			"AIzaSyBGVfpMu07JaCKimS6b6ylPvOcH0FsxpSY",
-			"checkUserInSkylab",
-			"checkUserInSkylab\ncheckUserInSkylab",
-			"checkUserInSkylab",
-			"getUserFromSkylab",
-			"wsdl",
-			"new SoapClient",
-			"proxy",
-			"http://www.grupoedisur.com.ar/propietarios/",
-			"before",
-			"145",
-			"'config'",
-			"->config",
-			"config",
-			"owner",
-			"var params = {"
+			"$accRelTableName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1127,6 +1031,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"./fonts/",
 			"\\\\",
 			"    ",
 			"{images_legal_placeholder}",
@@ -1253,8 +1158,7 @@
 			"showNewImageWindow",
 			"Controllers_EdisurMenus",
 			"handler.",
-			"edisur_webdocsgallery",
-			"projectData"
+			"edisur_webdocsgallery"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1265,376 +1169,61 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.js",
+					"file": "webpack.config.production.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 96,
+						"buffer_size": 2355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								1786,
+								1786
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/App.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								666,
-								666
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/stores/ArtistsListStore.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								859,
-								859
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 354.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/Layouts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 921,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								645,
-								645
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "style/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/components/Footer.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								203
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/components/SearchBar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1055,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								321,
-								321
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/actions/SearchActions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 663,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								435,
-								435
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/actions/ArtistsListActions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/stores/SearchStore.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								800,
-								800
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.x": -0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "src/components/ArtistsList.js",
+					"buffer": 1,
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 1044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								341,
+								341
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/components/ArtistItem.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								786,
-								786
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1644,20 +1233,79 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "design-template.html",
+					"buffer": 2,
+					"file": "src/core/ComboMaker.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4823,
+						"buffer_size": 2215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4612,
-								4612
+								1262,
+								1262
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
 							]
 						],
 						"settings":
@@ -1669,95 +1317,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								375,
-								375
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "src/constants/appConstants.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "/opt/lampp/htdocs/hit-combo-maker-demo/src/core/Dispatcher.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1810,7 +1370,7 @@
 	"project": "hit-combo-maker.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1820,8 +1380,76 @@
 		"selected_items":
 		[
 			[
+				".git",
+				"hit-combo-maker-demo/.gitignore"
+			],
+			[
+				".gi",
+				"hit-combo-maker/.gitignore"
+			],
+			[
+				"inde",
+				"hit-combo-maker/index.html"
+			],
+			[
+				"readm",
+				"hit-combo-maker/README.md"
+			],
+			[
 				"main",
 				"hit-combo-maker/style/main.css"
+			],
+			[
+				"searchac",
+				"hit-combo-maker/src/actions/SearchActions.js"
+			],
+			[
+				"app",
+				"hit-combo-maker/src/App.js"
+			],
+			[
+				"combomak",
+				"hit-combo-maker/src/core/ComboMaker.js"
+			],
+			[
+				"main.cs",
+				"hit-combo-maker/style/main.css"
+			],
+			[
+				"pack",
+				"hit-combo-maker/package.json"
+			],
+			[
+				"appcon",
+				"hit-combo-maker/src/constants/appConstants.js"
+			],
+			[
+				"combomake",
+				"hit-combo-maker/src/core/ComboMaker.js"
+			],
+			[
+				"layou",
+				"hit-combo-maker/src/components/Layouts.js"
+			],
+			[
+				"mai",
+				"hit-combo-maker/style/main.css"
+			],
+			[
+				"appcons",
+				"hit-combo-maker/src/constants/appConstants.js"
+			],
+			[
+				"constants",
+				"hit-combo-maker/src/constants/appConstants.js"
+			],
+			[
+				"cons",
+				"hit-combo-maker/node_modules/babel-loader/test/fixtures/constant.js"
+			],
+			[
+				"templa",
+				"hit-combo-maker/design-template.html"
 			],
 			[
 				"main.c",
@@ -1832,24 +1460,12 @@
 				"hit-combo-maker/index.html"
 			],
 			[
-				"inde",
-				"hit-combo-maker/index.html"
-			],
-			[
-				"app",
-				"hit-combo-maker/src/App.js"
-			],
-			[
 				"appc",
 				"hit-combo-maker/src/constants/appConstants.js"
 			],
 			[
 				"searchstor",
 				"hit-combo-maker/src/stores/SearchStore.js"
-			],
-			[
-				"appcon",
-				"hit-combo-maker/src/constants/appConstants.js"
 			],
 			[
 				"login_",
@@ -2220,10 +1836,6 @@
 				"web/back-end/models/Models_News.php"
 			],
 			[
-				".git",
-				".gitignore"
-			],
-			[
 				"configu",
 				"common/back-end/utils/externals/cms/Configuration.php"
 			],
@@ -2278,58 +1890,6 @@
 			[
 				"controllers_posts",
 				"cms/back-end/controllers/Controllers_Posts.php"
-			],
-			[
-				"devel",
-				"cms/back-end/controllers/Controllers_Devel.php"
-			],
-			[
-				"controllers_files",
-				"cms/back-end/controllers/Controllers_Files.php"
-			],
-			[
-				"files",
-				"common/back-end/utils/externals/cms/Files.php"
-			],
-			[
-				"file",
-				"cms/back-end/controllers/Controllers_Files.php"
-			],
-			[
-				"configura",
-				"common/back-end/utils/externals/cms/Configuration.php"
-			],
-			[
-				"utils_co",
-				"cms/back-end/utils/config/dev/Utils_Config.php"
-			],
-			[
-				"equipo_es.de",
-				"web/front-end/pages/empresa/_equipo_es.devel.html"
-			],
-			[
-				"empresa_es.de",
-				"web/front-end/pages/empresa/_empresa_es.devel.html"
-			],
-			[
-				"pagesform",
-				"web/back-end/controllers/Controllers_PagesForms.php"
-			],
-			[
-				"man.css",
-				"web/front-end/style/grupoedisur_main.css"
-			],
-			[
-				"_home_es.dev",
-				"web/front-end/pages/home/_home_es.devel.html"
-			],
-			[
-				"controllers_pagesf",
-				"web/back-end/controllers/Controllers_PagesForms.php"
-			],
-			[
-				"_cv-form_es.de",
-				"web/front-end/pages/forms/_cv-form_es.devel.html"
 			]
 		],
 		"width": 0.0
@@ -2337,7 +1897,7 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "edis",
+		"last_filter": "",
 		"selected_items":
 		[
 			[

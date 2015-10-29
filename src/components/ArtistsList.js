@@ -1,6 +1,8 @@
 'use strict'
 import React, {Component} from 'react';
 import ArtistItem from './ArtistItem';
+import ArtistItemControl from './ArtistItemControl';
+import Flipper from './flipper/FlipComponent';
 
 class ArtistsList extends Component {
     constructor(...props) {
@@ -14,7 +16,10 @@ class ArtistsList extends Component {
         return (
             <div>
                 {this.props.currentList.map((artist) => {
-                    return <ArtistItem key={artist.id} artist={artist}/>
+                    return <Flipper key={artist.id} className="Artist-card">
+                        <ArtistItem artist={artist}/>
+                        <ArtistItemControl artist={artist}/>
+                    </Flipper>
                 })}
             </div>
         );

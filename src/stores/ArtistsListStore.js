@@ -1,14 +1,15 @@
 'use strict'
 import Dispatcher from './../core/appDispatcher';
 import {EventEmitter} from 'events';
-import {ARTIST_ADD_NEW,ARTIST_CLEAR_LIST} from './../constants/appConstants';
+import {ARTIST_ADD_NEW,ARTIST_CLEAR_LIST,ARTIST_REMOVE} from './../constants/appConstants';
+import CombosListStore from './CombosListStore';
 
 let CHANGE_EVENT = 'change';
 
 class ArtistsListStore extends EventEmitter {
     constructor(){
         super();
-        this._list = [];
+        this._list = new Map();
         this._total = 8;//@TODO make it customizable
         this._registerDispatcher();
     }
@@ -23,13 +24,20 @@ class ArtistsListStore extends EventEmitter {
 
                 case ARTIST_ADD_NEW: {
                     //console.log(action.artist);
-                    this._list.push( action.artist );
+                    this._list.set( action.artist.id, action.artist );
+                    this._emmitChange();
+                    break;
+                }
+
+                case ARTIST_REMOVE: {
+                    Dispatcher.waitFor([CombosListStore.dispatchToken]);
+                    this._list.delete( action.artist.id );
                     this._emmitChange();
                     break;
                 }
 
                 case ARTIST_CLEAR_LIST: {
-                    this._list = [];
+                    this._list.clear();
                     this._emmitChange();
                     break;
                 }
@@ -50,11 +58,11 @@ class ArtistsListStore extends EventEmitter {
     }
 
     getList() {
-        return this._list;
+        return [...this._list.values()];
     }
 
     getLeft() {
-        return this._total - this._list.length;
+        return this._total - this._list.size;
     }
 
     getTotal() {

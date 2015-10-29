@@ -10,6 +10,12 @@ let artistsListActions = {
             text: artist
         });
     },
+    removeArtist: (artist) => {
+        Dispatcher.dispatch({
+            type: constants.ARTIST_REMOVE,
+            artist: artist
+        });
+    },
     clear: () => {
         Dispatcher.dispatch({
             type: constants.ARTIST_CLEAR_LIST
