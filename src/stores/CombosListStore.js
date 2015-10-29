@@ -67,12 +67,12 @@ class CombosListStore extends EventEmitter {
         this._list.map((combo) => {
             time+= combo.tracks[0].duration_ms + combo.tracks[1].duration_ms;
         });
-        return this.msToTime(time);
+        return this._msToTime(time);
     }
-    msToTime(duration) {
+
+    _msToTime(duration) {
         let minutes = parseInt((duration/(1000*60))%60)
             , hours = parseInt((duration/(1000*60*60))%24);
-        console.log(minutes);
         hours = (hours < 10) ? "0" + hours : hours;
         minutes = (minutes < 10) ? "0" + minutes : minutes;
 
