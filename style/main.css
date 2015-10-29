@@ -30,11 +30,36 @@ body {
 }
 
 .Artist-card {
-    min-width: 150px;
-    max-width: 10%;
+    /*min-width: 150px;
+    max-width: 10%;*/
+    width: 150px;
+    height: 160px;
     float: none;
     display: inline-block;
     vertical-align: text-top;
+}
+.Artist-card-front {
+    width: 150px;
+    height: 160px;
+}
+
+.Artist-card-back {
+    width: 150px;
+    height: 160px;
+    background-color: #eaeaea;
+}
+
+.Artist-card-back .glyphicon {
+    font-size: 40px;
+}
+
+.Artist-card-back span.alert-danger {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #CCC;
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
 }
 
 .Artist-card h4 {
@@ -70,4 +95,51 @@ body {
 
 .ComboItem-first-cell {
     width: 100%;
+}
+
+
+
+/*Flipper*/
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    /*border: 1px solid red;*/
+    width: 150px;
+    height: 160px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
 }
