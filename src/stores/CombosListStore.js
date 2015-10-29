@@ -65,7 +65,6 @@ class CombosListStore extends EventEmitter {
     getDuration() {
         let time = 0;
         this._list.map((combo) => {
-            console.log(combo.tracks[0]);
             time+= combo.tracks[0].duration_ms + combo.tracks[1].duration_ms;
         });
         return this.msToTime(time);
