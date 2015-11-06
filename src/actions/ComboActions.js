@@ -30,10 +30,11 @@ let comboActions = {
         });
     },
     suggestArtist: () => {
-        let artists = ArtistsListStore.getList();
+        let artistsMap = ArtistsListStore.getList();
         let artistsLeft = ArtistsListStore.getLeft();
+        let blacklistedArtistsMap = ArtistsListStore.getBlacklistMap();
         //dispatch event for suggesting process start
-        ComboMaker.suggestArtist( artists, artistsLeft )
+        ComboMaker.suggestArtist( artistsMap, artistsLeft, blacklistedArtistsMap )
         .then(( artistCollection ) => {
             for( let artist of artistCollection ){
                 SearchActions.selectArtist( artist );

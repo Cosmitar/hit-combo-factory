@@ -13,7 +13,7 @@ let CHANGE_EVENT = 'change';
 class CombosListStore extends EventEmitter {
     constructor(){
         super();
-        this._list = [];
+        this._list = new Set();
         this.dispatchToken = null;
         this._registerDispatcher();
     }
@@ -27,13 +27,13 @@ class CombosListStore extends EventEmitter {
             switch(action.type) {
 
                 case COMBO_ADD_NEW: {
-                    this._list.push( action.combo );
+                    this._list.add( action.combo );
                     this._emmitChange();
                     break;
                 }
 
                 case COMBO_CLEAR_LIST: {
-                    this._list = [];
+                    this._list.clear();
                     this._emmitChange();
                     break;
                 }
@@ -45,11 +45,11 @@ class CombosListStore extends EventEmitter {
                 }
 
                 case ARTIST_REMOVE: {
-                    let filteredList = this._list.filter((combo) => {
-                        return combo.artist.id != action.artist.id;
-                    })
-                    this._list = filteredList;
-                    //this._emmitChange();
+                    this._list.forEach((combo) => {
+                        if( combo.artist.id == action.artist.id ){
+                            this._list.delete(combo);
+                        }
+                    });
                     break;
                 }
 
@@ -70,12 +70,12 @@ class CombosListStore extends EventEmitter {
     }
 
     getList() {
-        return this._list;
+        return [...this._list];
     }
 
     getDuration() {
         let time = 0;
-        this._list.map((combo) => {
+        this._list.forEach((combo) => {
             time+= combo.tracks[0].duration_ms + combo.tracks[1].duration_ms;
         });
         return this._msToTime(time);

@@ -11,7 +11,7 @@ import CombosListStore from './stores/CombosListStore';
 let getState = () => {
     return {
         currentSearch: SearchStore.getSearch(),
-        currentArtists: ArtistsListStore.getList(),
+        currentArtists: [...ArtistsListStore.getList().values()],
         totalArtists: ArtistsListStore.getTotal(),
         currentCombos: CombosListStore.getList(),
         playlistDuration: CombosListStore.getDuration()

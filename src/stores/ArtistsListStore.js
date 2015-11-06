@@ -10,6 +10,7 @@ class ArtistsListStore extends EventEmitter {
     constructor(){
         super();
         this._list = new Map();
+        this._blacklist = new Map();
         this._total = 8;//@TODO make it customizable
         this._registerDispatcher();
     }
@@ -31,6 +32,7 @@ class ArtistsListStore extends EventEmitter {
 
                 case ARTIST_REMOVE: {
                     Dispatcher.waitFor([CombosListStore.dispatchToken]);
+                    this._blacklist.set(action.artist.id, action.artist );
                     this._list.delete( action.artist.id );
                     this._emmitChange();
                     break;
@@ -38,6 +40,7 @@ class ArtistsListStore extends EventEmitter {
 
                 case ARTIST_CLEAR_LIST: {
                     this._list.clear();
+                    this._blacklist.clear();
                     this._emmitChange();
                     break;
                 }
@@ -58,7 +61,11 @@ class ArtistsListStore extends EventEmitter {
     }
 
     getList() {
-        return [...this._list.values()];
+        return this._list;
+    }
+
+    getBlacklistMap() {
+        return this._blacklist;
     }
 
     getLeft() {

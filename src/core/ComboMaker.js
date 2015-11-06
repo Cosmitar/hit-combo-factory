@@ -66,15 +66,19 @@ class ComboMaker {
             ComboActions.addCombo(combo);
     }
 
-    suggestArtist( referenceArtists, amount = 0 ) {
+    suggestArtist( referenceArtists = new Map, amount = 0, blacklistedArtists = new Map ) {
         let suggestionOptions = new Map();
         let promises = [], promise;
         let retVal = new Promise((resolve, reject) => {
-            for( let artist of referenceArtists ){
+            for( let artist of [...referenceArtists.values()] ){
                 promise = artist.getRelatedArtists();
                 promise.then((artistsCollection) => {
                     for( let relArtist of artistsCollection ){
-                        suggestionOptions.set( relArtist.id, relArtist );
+                        let notBlacklisted = !blacklistedArtists.has(relArtist.id);
+                        let notInListYet = !referenceArtists.has(relArtist.id);
+                        if( notBlacklisted && notInListYet ){
+                            suggestionOptions.set( relArtist.id, relArtist );
+                        }
                     }
                 });
                 promises.push( promise );

@@ -26,7 +26,7 @@ class SearchBar extends Component {
                             <input type="text" className="form-control" placeholder="type an artist" ref="search" />
                         </div>
                     </div>
-                    <button className="btn btn-default" onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest artists</button>
+                    <button className="btn btn-default" onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest me artists</button>
                 </form>
                 <div style={restartConditionalStyle}>
                     <button className="btn btn-default" onClick={this._handleRestart.bind(this)}>Restart</button>
