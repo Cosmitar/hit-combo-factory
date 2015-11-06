@@ -4,12 +4,13 @@ import Dispatcher from './../core/appDispatcher';
 import ComboMaker from './../core/ComboMaker';
 import constants from './../constants/appConstants';
 import ArtistsListStore from './../stores/ArtistsListStore';
-import ComboListStore from './../stores/CombosListStore';
+import CombosListStore from './../stores/CombosListStore';
 import SearchActions from './SearchActions';
 
 let comboActions = {
     makeCombo: (artist) => {
-        ComboMaker.makeCombo(artist);
+        let blacklistedTracksMap = CombosListStore.getBlacklist();
+        ComboMaker.makeCombo(artist,blacklistedTracksMap);
     },
     addCombo: (combo) => {
         Dispatcher.dispatch({

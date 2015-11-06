@@ -25,7 +25,7 @@ class CombosList extends Component {
                 </div>
                 <div className="ComboList-container">
                     {this.props.currentList.map((combo) => {
-                        return <ComboItem key={combo.id} combo={combo}/>
+                        return <ComboItem key={combo.key} combo={combo}/>
                     })}
                 </div>
             </div>

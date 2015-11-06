@@ -38,6 +38,7 @@ body {
     float: none;
     display: inline-block;
     vertical-align: text-top;
+    padding: 0px;
 }
 .Artist-card-front {
     width: 150px;

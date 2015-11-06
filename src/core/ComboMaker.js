@@ -19,7 +19,7 @@ class ComboMaker {
         };
         return retVal;
     }
-    _getPairByPopularity(trackList) {
+    _getPairByPopularity(trackList, blacklistedTracks) {
         let currentList = this._getCurrentList();
         let pair = [];
         //sort tracks by popularity (not always are well sorted).
@@ -28,8 +28,8 @@ class ComboMaker {
         });
 
         for( let track of sortedTracks ){
-            //check if track isn't already in the paylist
-            if( !currentList.has(track.id) ){
+            //check if track isn't already in the paylist or blacklisted
+            if( !currentList.has(track.id) && !blacklistedTracks.has(track.id) ){
                 pair.push( track );
             }else{
                 console.warn('Track already in list: '+ track.name);
@@ -38,15 +38,14 @@ class ComboMaker {
                 break;
             }
         }
-
         return pair;
     }
     
-    makeCombo(artist) {
+    makeCombo(artist, blacklistedTracks = new Map) {
         let pairTracks;
         artist.getTopTracks('US')//@TODO set user country.
         .then( trackList => {
-            pairTracks = this._getPairByPopularity(trackList);
+            pairTracks = this._getPairByPopularity( trackList, blacklistedTracks );
             if( pairTracks.length < 2 ){
                 //@TODO build combo by searching albums by popularity.
                 console.warn('less than 2 songs found');
@@ -59,7 +58,8 @@ class ComboMaker {
     _buildCombo(artist, pairTracks){
             //@TODO analyze the tracks and catalog the combo.
             let combo = new Combo();
-            combo.id = artist.id + pairTracks[0].id + pairTracks[1].id;
+            combo.id = artist.id;// + pairTracks[0].id + pairTracks[1].id;
+            combo.key = artist.id + pairTracks[0].id + pairTracks[1].id;
             combo.type = 'TRENDING';//CLASSIC, HIT, DISCOVER
             combo.artist = artist;
             combo.tracks = pairTracks;
