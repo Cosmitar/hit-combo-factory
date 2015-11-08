@@ -29,7 +29,7 @@ class LayoutHome extends Component {
             <section className="row text-center" style={panelsConditionaStyle}>
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        Showing {state.currentArtists.length} of {state.totalArtists} artists
+                        <h5><span className="glyphicon glyphicon-user" aria-hidden="true"> </span> {state.currentArtists.length} / {state.totalArtists}</h5>
                     </div>
                     <div className="panel-body">
                         <ArtistsList currentList={state.currentArtists}/>

@@ -13,25 +13,24 @@ class SearchBar extends Component {
         return (
             <div className="center-block">
 
-<ul className="nav nav-pills SearchBar-nav-container">
-<li>
-
-                <form onSubmit={this._handleSubmit.bind(this)} className={artistLeft? "SearchBar-form form-inline" : "hidden" }>
-                    <div className="form-group">
-                        <div className="input-group">
-                            <a href="#" onClick={this._handleSearchBtn.bind(this)} className="input-group-addon btn hcm-btn highlighted">
-                                <span className="glyphicon glyphicon-search" aria-hidden="true"></span>
-                            </a>
-                            <input type="text" className="form-control" placeholder="Type an artist" ref="search" />
-                        </div>
-                    </div>
-                    <input type="submit" className="hidden"/>
-                </form>
-</li>
-<li>
-                <button className={artistLeft? "btn btn-default hcm-btn" : "hidden" } onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest me artists</button>
-</li>
-</ul>
+                <ul className="nav nav-pills SearchBar-nav-container">
+                    <li>
+                        <form onSubmit={this._handleSubmit.bind(this)} className={artistLeft? "SearchBar-form form-inline" : "hidden" }>
+                            <div className="form-group">
+                                <div className="input-group">
+                                    <a href="#" onClick={this._handleSearchBtn.bind(this)} className="input-group-addon btn hcm-btn highlighted">
+                                        <span className="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    </a>
+                                    <input type="text" className="form-control" placeholder="Type an artist" ref="search" />
+                                </div>
+                            </div>
+                            <input type="submit" className="hidden"/>
+                        </form>
+                    </li>
+                    <li>
+                        <button className={artistLeft? "btn btn-default hcm-btn" : "hidden" } onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest me artists</button>
+                    </li>
+                </ul>
                 <div className={!artistLeft? "block" : "hidden" }>
                     <button className="btn btn-default hcm-btn" onClick={this._handleRestart.bind(this)}>Restart</button>
                 </div>

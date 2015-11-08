@@ -13,15 +13,15 @@ class CombosList extends Component {
     render() {
         return (
             <div className="panel panel-default">
-                <div className="panel-heading text-left">
-                    <div className="container-fluid">
-                        <ul className="nav navbar-nav">
-                            <li><button type="button" className="btn btn-default navbar-btn hcm-btn">Export to Spotify</button></li>
+                <div className="panel-heading">
+                    <ul className="nav nav-pills">
                             <li>
-                                <p className="navbar-text">duration: {this.props.playlistDuration}</p>
+                                <a type="button" className="btn btn-default navbar-btn hcm-btn">Export to Spotify</a>
+                            </li>
+                            <li className="pull-right">
+                                <h5><span className="glyphicon glyphicon-time" aria-hidden="true"></span> {this.props.playlistDuration}</h5>
                             </li>
                         </ul>
-                    </div>
                 </div>
                 <div className="ComboList-container">
                     {this.props.currentList.map((combo) => {
