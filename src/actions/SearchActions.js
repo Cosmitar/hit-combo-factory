@@ -48,6 +48,6 @@ class SearchActions {
         ArtistsListActions.clear();
         ComboActions.clear();
     }
-};
+}
 
 export default new SearchActions();

@@ -6,30 +6,34 @@ class SearchBar extends Component {
     componentDidMount() {
         this._setInitialUIState();
     }
+
     render() {
         let disableSuggestion = this.props.totalSelectedArtists < 1;
         let artistLeft = this.props.totalSelectableArtists != this.props.totalSelectedArtists;
-        let restartConditionalStyle = {
-            display: artistLeft? 'none':'block'
-        };
-        let searchConditionalStyle = {
-            display: artistLeft? 'block': 'none'
-        };
         return (
             <div className="center-block">
-                <form className="SearchBar-form form-inline" onSubmit={this._handleSubmit.bind(this)}  style={searchConditionalStyle}>
+
+<ul className="nav nav-pills SearchBar-nav-container">
+<li>
+
+                <form onSubmit={this._handleSubmit.bind(this)} className={artistLeft? "SearchBar-form form-inline" : "hidden" }>
                     <div className="form-group">
                         <div className="input-group">
-                            <span className="input-group-btn">
-                                <input className="btn btn-default" type="submit" value="Search" />
-                            </span>
-                            <input type="text" className="form-control" placeholder="type an artist" ref="search" />
+                            <a href="#" onClick={this._handleSearchBtn.bind(this)} className="input-group-addon btn hcm-btn highlighted">
+                                <span className="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </a>
+                            <input type="text" className="form-control" placeholder="Type an artist" ref="search" />
                         </div>
                     </div>
-                    <button className="btn btn-default" onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest me artists</button>
+                    <input type="submit" className="hidden"/>
                 </form>
-                <div style={restartConditionalStyle}>
-                    <button className="btn btn-default" onClick={this._handleRestart.bind(this)}>Restart</button>
+</li>
+<li>
+                <button className={artistLeft? "btn btn-default hcm-btn" : "hidden" } onClick={this._handleSuggest.bind(this)} disabled={disableSuggestion}>Suggest me artists</button>
+</li>
+</ul>
+                <div className={!artistLeft? "block" : "hidden" }>
+                    <button className="btn btn-default hcm-btn" onClick={this._handleRestart.bind(this)}>Restart</button>
                 </div>
             </div>
         );
@@ -42,6 +46,10 @@ class SearchBar extends Component {
             searchNode.focus();
         },0);
         
+    }
+
+    _handleSearchBtn(e) {
+        this._handleSubmit(e);
     }
 
     _handleSubmit(e) {

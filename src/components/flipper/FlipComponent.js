@@ -19,7 +19,6 @@ class FlipContainer extends Component {
     }
 
     _onTouchStart(e) {
-        console.log('TOUCHED');
         //classList.toggle('hover');
     }
 }

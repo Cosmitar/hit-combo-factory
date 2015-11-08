@@ -16,7 +16,7 @@ class CombosList extends Component {
                 <div className="panel-heading text-left">
                     <div className="container-fluid">
                         <ul className="nav navbar-nav">
-                            <li><button type="button" className="btn btn-default navbar-btn">Export to Spotify</button></li>
+                            <li><button type="button" className="btn btn-default navbar-btn hcm-btn">Export to Spotify</button></li>
                             <li>
                                 <p className="navbar-text">duration: {this.props.playlistDuration}</p>
                             </li>

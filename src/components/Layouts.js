@@ -6,6 +6,10 @@ import Footer from './Footer';
 import CombosList from './CombosList';
 
 class LayoutHome extends Component {
+    /*constructor(...props){
+        super(...props);
+    }*/
+    
     render() {
         let state = this.props.state;
         let panelsConditionaStyle = {
@@ -42,17 +46,11 @@ class LayoutHome extends Component {
             <footer className="row text-center Footer-wrapper">
                 <Footer/>
             </footer>
+            {this.props.children}
         </div>
     }
 }
-/*
-            <div class="row">
-                <SelectionList/>
-            </div>
-            <div class="row">
-                <Playlist/>
-            </div>
-*/
+
 export default {
     home: LayoutHome
 }
