@@ -3,13 +3,6 @@ import {User, Session} from 'spotify-client';
 import constants from './../constants/appConstants';
 import Dispatcher from './../core/appDispatcher';
 
-function receiveMessage(event) {
-    /*if (event.origin !== "http://example.org:8080")
-    return;*/
-    console.log(event);
-
-    // ...
-}
 class LoginActions {
     constructor() {
         Session.config({
