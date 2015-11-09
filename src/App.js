@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Layouts from './components/Layouts'
 import Modal from './components/modal/ModalComponent';
 import LoginFrame from './components/LoginFrame';
+import WaterMark from './components/WaterMark';
 
 import SearchStore from './stores/SearchStore';
 import ArtistsListStore from './stores/ArtistsListStore';
@@ -48,6 +49,7 @@ class App extends Component {
         //        <button onClick={this._openLoginModal.bind(this)}>open</button>
         return (
             <Layouts.home state={this.state}>
+                <WaterMark className={this.state.currentArtists.length == 0? 'block':'hidden'}/>
                 <Modal isOpen={this.state.showLogin} onClose={this._onCloseLoginModal.bind(this)}>
                     <LoginFrame isLoggedIn={this.state.isLoggedIn} src={this.state.loginUrl}/>
                 </Modal>

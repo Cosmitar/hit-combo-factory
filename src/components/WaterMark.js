@@ -1,0 +1,14 @@
+'use strict'
+import React, {Component} from 'react';
+
+class WaterMark extends Component {
+    render() {
+        return (
+            <div className={this.props.className + " WaterMark-continer" }>
+                <img src="style/images/watermark.svg" className="WaterMark-image" />
+            </div>
+        );
+    }
+}
+
+export default WaterMark;
