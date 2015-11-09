@@ -1,7 +1,7 @@
-# Hit Combo Maker
-[Hit Combo Maker](http://cosmitar.github.io/hit-combo-maker/) is a crafter for an always-comfortable playlist using Spotify API.
+# Hit Combo Factory
+[Hit Combo Factory](http://cosmitar.github.io/hit-combo-factory/) is a crafter for an always-comfortable playlist using Spotify API.
 Select the artists and you'll get two tracks of each artist on the list.
-[Try this work-in-progress example](http://cosmitar.github.io/hit-combo-maker/)
+[Try this work-in-progress example](http://cosmitar.github.io/hit-combo-factory/)
 
 ##Why two tracks? 
 **It's the perfect balance**
@@ -20,8 +20,8 @@ You can choose from a combination of
 - Discovery: new and not yet popular song. (WIP)
 
 ##Additional functionality
-- You can let Hit Combo Maker suggest you artists related with current selection.
-- Remove a song and Hit Combo Maker will find another one from that artist for you.
+- You can let Hit Combo Factory suggest you artists related with current selection.
+- Remove a song and Hit Combo Factory will find another one from that artist for you.
 - Preview the resultant playlist (WIP).
 - Export the playlist to your Spotify account (WIP).
 

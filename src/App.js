@@ -10,7 +10,7 @@ import WaterMark from './components/WaterMark';
 import SearchStore from './stores/SearchStore';
 import ArtistsListStore from './stores/ArtistsListStore';
 import CombosListStore from './stores/CombosListStore';
-import LoginStore from './stores/LoginStore';
+import UserStore from './stores/UserStore';
 
 let getState = () => {
     return {
@@ -19,8 +19,8 @@ let getState = () => {
         totalArtists: ArtistsListStore.getTotal(),
         currentCombos: CombosListStore.getList(),
         playlistDuration: CombosListStore.getDuration(),
-        isLoggedIn: LoginStore.isLoggedIn(),
-        loginUrl: LoginStore.getLoginUrl(),
+        isLoggedIn: UserStore.isLoggedIn(),
+        loginUrl: UserStore.getLoginUrl(),
         showLogin: false
     }
 };
@@ -35,14 +35,14 @@ class App extends Component {
         SearchStore.addChangeListener(this._onChange.bind(this));
         ArtistsListStore.addChangeListener(this._onChange.bind(this));
         CombosListStore.addChangeListener(this._onChange.bind(this));
-        LoginStore.addChangeListener(this._onChange.bind(this));
+        UserStore.addChangeListener(this._onChange.bind(this));
     }
 
     componentWillUnmount() {
         SearchStore.removeChangeListener(this._onChange.bind(this));
         ArtistsListStore.removeChangeListener(this._onChange.bind(this));
         CombosListStore.removeChangeListener(this._onChange.bind(this));
-        LoginStore.removeChangeListener(this._onChange.bind(this));
+        UserStore.removeChangeListener(this._onChange.bind(this));
     }
 
     render() {

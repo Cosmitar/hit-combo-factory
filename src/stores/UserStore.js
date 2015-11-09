@@ -5,7 +5,7 @@ import {USER_LOGIN,SET_LOGIN_URL} from './../constants/appConstants';
 
 let CHANGE_EVENT = 'change';
 
-class LoginStore extends EventEmitter {
+class UserStore extends EventEmitter {
     constructor(){
         super();
         this.session = null;
@@ -55,4 +55,4 @@ class LoginStore extends EventEmitter {
     }
 }
 
-export default new LoginStore();
+export default new UserStore();

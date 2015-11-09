@@ -3,7 +3,7 @@ import {User, Session} from 'spotify-client';
 import constants from './../constants/appConstants';
 import Dispatcher from './../core/appDispatcher';
 
-class LoginActions {
+class UserActions {
     constructor() {
         Session.config({
             clientId: '1dd4ae27b3fc480ebf627679e5bb0e17',
@@ -34,4 +34,4 @@ class LoginActions {
 
 }
 
-export default new LoginActions();
+export default new UserActions();

@@ -1,10 +1,10 @@
 'use strict'
 import React, {Component} from 'react';
-import LoginActions from './../actions/LoginActions';
+import UserActions from './../actions/UserActions';
 
 class LoginFrame extends Component {
     componentDidMount() {
-        //LoginActions.checkLogin();
+        //UserActions.checkLogin();
     }
 
     render() {
@@ -23,7 +23,7 @@ class LoginFrame extends Component {
         );
         window.addEventListener('storage',(event) => {
             if( event.key == 'token' ){
-                LoginActions.setLoginToken( event.newValue );
+                UserActions.setLoginToken( event.newValue );
             }
             win.close();
         });
@@ -31,7 +31,7 @@ class LoginFrame extends Component {
         window postMessage method
         window.addEventListener('message',(event) => {
             if( event.data != '' ){
-                LoginActions.setLoginToken( event.data );
+                UserActions.setLoginToken( event.data );
             }else{
                 console.warn('something went wrong authenticating on Spotify');
                 console.log( event.data );
