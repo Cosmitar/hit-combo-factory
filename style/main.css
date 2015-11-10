@@ -31,14 +31,27 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    z-index: 10;
 }
 
-.WaterMark-continer {
+.WaterMark-container {
     position: relative;
     height: 80vh;
     width: 100%;
     text-align: center;
     vertical-align: middle;
+}
+
+.WaterMark-container .mainCopy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #648F00;
+    z-index: 1;
+}
+
+.WaterMark-container img.spotify-logo {
+    vertical-align: bottom;
 }
 
 .WaterMark-image {
@@ -330,7 +343,7 @@ body {
 }
 
 .form-control:focus {
-    border: 1px solid #2EBD59;
+    border: 1px solid #648F00;
     box-shadow: none;
 }
 
@@ -343,7 +356,7 @@ body {
 .SearchBar-form .input-group-addon:focus {
     box-shadow: none;
     outline-color: transparent;
-    outline-color: #2ebd59;
+    outline-color: #648F00;
 }
 
 .SearchBar-form input.form-control{
@@ -393,9 +406,9 @@ section .panel-default .panel-heading {
 .btn.hcm-btn:link,
 .btn.hcm-btn:active,
 .btn.hcm-btn:visited {
-    color: #2EBD59;
+    color: #648F00;
     background-color: transparent;
-    border-color: #2EBD59;
+    border-color: #648F00;
     transition: 0.4s;
 }
 
@@ -403,28 +416,28 @@ section .panel-default .panel-heading {
 .btn.hcm-btn:focus,
 .btn.hcm-btn.highlighted {
     color: #ffffff;
-    background-color: #2EBD59;
+    background-color: #648F00;
     box-shadow: none;
-    outline-color: #2ebd59;
+    outline-color: #648F00;
 }
 
 .Artist-card-front,
 .Artist-img-container {
-    color: #2EBD59;
+    color: #648F00;
     background-color: #252830;
-    border-color: #2EBD59;
+    border-color: #648F00;
 }
 .Artist-img-container {
-    border: 1px solid #2EBD59;
+    border: 1px solid #648F00;
 }
 
 .Artist-card-front .caption {
-    color: #2EBD59;
+    color: #648F00;
 }
 
 .Artist-card-back {
-    background-color: #2EBD59;
-    border-color: #2EBD59;
+    background-color: #648F00;
+    border-color: #648F00;
 }
 
 .Artist-card-back span.alert-danger {
@@ -451,14 +464,26 @@ section .panel-default .panel-heading {
 
 .Footer-wrapper {
     background-color: #1A1C22;
-    color: #2EBD59;
+    color: #648F00;
+}
+
+.nav-pills li a.btn-spotify-square {
+    padding: 0;
+    opacity: 0.7;
+    background-color: transparent;
+    width: 150px;
+    transition: all 0.4s;
+}
+
+.nav>li>a.btn-spotify-square:focus, .nav>li>a.btn-spotify-square:hover {
+    opacity: 1;
 }
 
 /*background dark #1A1C22*/
 /*background light #252830*/
 /*input dark #252830*/
 /*input light #FFFFFF*/
-/*verde oscuro #2EBD59*/
+/*verde oscuro #648F00*/
 /*verde claro #2ebd59*/
 
 /*====================*/
