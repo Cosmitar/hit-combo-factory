@@ -17,7 +17,7 @@ class TrackItemRow extends Component {
                 <td className="ComboItem-first-cell">
                     {this.props.track.name}
                 </td>
-                <td>
+                <td className="hidden">
                     <a href="#" onClick={this._handlePlayTrack.bind(this)}>
                         <span className="glyphicon glyphicon-play" aria-hidden="true"></span>
                     </a>

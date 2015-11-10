@@ -99,6 +99,15 @@ class CombosListStore extends EventEmitter {
         return [...this._list.values()];
     }
 
+    getTracks() {
+        let retVal = [];
+        for( let combo of this.getList() ){
+            if( combo.tracks[0] ){ retVal.push(combo.tracks[0]) };
+            if( combo.tracks[1] ){ retVal.push(combo.tracks[1]) };
+        }
+        return retVal;
+    }
+
     getBlacklist() {
         return this._blacklistTracks;
     }

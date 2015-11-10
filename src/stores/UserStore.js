@@ -1,7 +1,14 @@
 'use strict'
 import Dispatcher from './../core/appDispatcher';
 import {EventEmitter} from 'events';
-import {USER_LOGIN,SET_LOGIN_URL} from './../constants/appConstants';
+import {
+    USER_LOGIN,
+    SET_LOGIN_URL,
+    USER_SHOW_LOGIN,
+    USER_CLOSE_LOGIN,
+    USER_SHOW_EXPORT,
+    USER_CLOSE_EXPORT
+} from './../constants/appConstants';
 
 let CHANGE_EVENT = 'change';
 
@@ -11,6 +18,8 @@ class UserStore extends EventEmitter {
         this.session = null;
         this._isLoggedIn = false;
         this._loginUrl = '';
+        this._showLogin = false;
+        this._showExport = false;
         this._registerDispatcher();
     }
 

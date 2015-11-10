@@ -1,6 +1,8 @@
 'use strict'
 import React, {Component} from 'react';
 import ComboItem from './ComboItem';
+import UIActions from './../actions/UIActions';
+import UserStore from './../stores/UserStore';
 
 class CombosList extends Component {
     constructor(...props) {
@@ -16,7 +18,7 @@ class CombosList extends Component {
                 <div className="panel-heading">
                     <ul className="nav nav-pills">
                             <li>
-                                <a type="button" className="btn btn-default navbar-btn hcm-btn">Export to Spotify</a>
+                                <a type="button" onClick={this._exportHandler.bind(this)} className="btn btn-default navbar-btn hcm-btn">Export to Spotify</a>
                             </li>
                             <li className="pull-right">
                                 <h5><span className="glyphicon glyphicon-time" aria-hidden="true"></span> {this.props.playlistDuration}</h5>
@@ -30,6 +32,17 @@ class CombosList extends Component {
                 </div>
             </div>
         );
+    }
+
+    _exportHandler(e) {
+        e.preventDefault();
+        if( !UserStore.isLoggedIn() ){
+            //show login
+            UIActions.showLogin();
+        }else{
+            UIActions.showExport();
+            //show export
+        }
     }
 }
 

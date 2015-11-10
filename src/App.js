@@ -5,12 +5,16 @@ import Footer from './components/Footer';
 import Layouts from './components/Layouts'
 import Modal from './components/modal/ModalComponent';
 import LoginFrame from './components/LoginFrame';
+import ExportFrame from './components/ExportFrame';
 import WaterMark from './components/WaterMark';
+
+import UIActions from './actions/UIActions';
 
 import SearchStore from './stores/SearchStore';
 import ArtistsListStore from './stores/ArtistsListStore';
 import CombosListStore from './stores/CombosListStore';
 import UserStore from './stores/UserStore';
+import UIStore from './stores/UIStore';
 
 let getState = () => {
     return {
@@ -21,7 +25,9 @@ let getState = () => {
         playlistDuration: CombosListStore.getDuration(),
         isLoggedIn: UserStore.isLoggedIn(),
         loginUrl: UserStore.getLoginUrl(),
-        showLogin: false
+        showLogin: UIStore.showLogin(),
+        showExport: UIStore.showExport(),
+        showExportSuccess: UIStore.showExportSuccess(),
     }
 };
 
@@ -36,6 +42,7 @@ class App extends Component {
         ArtistsListStore.addChangeListener(this._onChange.bind(this));
         CombosListStore.addChangeListener(this._onChange.bind(this));
         UserStore.addChangeListener(this._onChange.bind(this));
+        UIStore.addChangeListener(this._onChange.bind(this));
     }
 
     componentWillUnmount() {
@@ -43,6 +50,7 @@ class App extends Component {
         ArtistsListStore.removeChangeListener(this._onChange.bind(this));
         CombosListStore.removeChangeListener(this._onChange.bind(this));
         UserStore.removeChangeListener(this._onChange.bind(this));
+        UIStore.removeChangeListener(this._onChange.bind(this));
     }
 
     render() {
@@ -53,13 +61,22 @@ class App extends Component {
                 <Modal isOpen={this.state.showLogin} onClose={this._onCloseLoginModal.bind(this)}>
                     <LoginFrame isLoggedIn={this.state.isLoggedIn} src={this.state.loginUrl}/>
                 </Modal>
+                <Modal isOpen={this.state.showExport || this.state.showExportSuccess} onClose={this._onCloseExportModal.bind(this)}>
+                    <ExportFrame export={this.state.showExport} success={this.state.showExportSuccess}/>
+                </Modal>
             </Layouts.home>
         );
     }
 
     _onCloseLoginModal() {
-        this.setState({showLogin: false});
+        UIActions.closeLogin();
+        //this.setState({showLogin: false});
     }
+
+    _onCloseExportModal() {
+        UIActions.closeExport();
+    }
+    
     _openLoginModal() {
         this.setState({showLogin: true});
     }

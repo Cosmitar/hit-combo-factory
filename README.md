@@ -14,7 +14,7 @@ if you don't like the artist, better remove him/her from the playlist
 
 ##Combos has types
 You can choose from a combination of
-- Trending: new and popular song.
+- Trending (default): new and popular song.
 - Classic: oldie and popular song. (WIP)
 - HIT: a popular song of a couple of years ago. (WIP)
 - Discovery: new and not yet popular song. (WIP)

@@ -1,6 +1,7 @@
 'use strict'
 import React, {Component} from 'react';
 import UserActions from './../actions/UserActions';
+import UIActions from './../actions/UIActions';
 
 class LoginFrame extends Component {
     componentDidMount() {
@@ -9,8 +10,16 @@ class LoginFrame extends Component {
 
     render() {
         return(
-            <div>
-                <button onClick={this._onLoginHandler.bind(this)}>Login to Spotify</button>  
+            <div className="LoginFrame-container">
+                <div className="LoginFrame-box">
+                        <span className="LoginFrame-copy">
+                            Log in with your Spotify Account <br/>
+                            to let Hit Combo Factory export the playlists.
+                        </span>
+                        <a href="#" onClick={this._onLoginHandler.bind(this)}>
+                            <img src="style/images/log_in-desktop.svg" />
+                        </a> 
+                </div>
             </div>
         );
     }
@@ -24,6 +33,8 @@ class LoginFrame extends Component {
         window.addEventListener('storage',(event) => {
             if( event.key == 'token' ){
                 UserActions.setLoginToken( event.newValue );
+                UIActions.closeLogin();
+                UIActions.showExport();
             }
             win.close();
         });
