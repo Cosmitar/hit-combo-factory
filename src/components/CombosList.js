@@ -18,7 +18,10 @@ class CombosList extends Component {
                 <div className="panel-heading">
                     <ul className="nav nav-pills">
                             <li>
-                                <a type="button" onClick={this._exportHandler.bind(this)} className="btn btn-default navbar-btn hcm-btn">Export to Spotify</a>
+                                <a href="#" onClick={this._exportHandler.bind(this)} className="btn-spotify-square">
+                                    <img src="style/images/create_playlist-green.svg" />
+                                </a>
+                                <a type="button" onClick={this._exportHandler.bind(this)} className="btn btn-default navbar-btn hcm-btn hidden">Export to Spotify</a>
                             </li>
                             <li className="pull-right">
                                 <h5><span className="glyphicon glyphicon-time" aria-hidden="true"></span> {this.props.playlistDuration}</h5>
