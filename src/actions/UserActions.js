@@ -8,8 +8,8 @@ import UIActions from './../actions/UIActions';
 class UserActions {
     constructor() {
         Session.config({
-            clientId: '421dc6b328c946468dc522a6af34e162',
-            secretId: '06591b379ae64d3587ccee0599ae50eb',
+            clientId: '[your app client id]',
+            secretId: '[your app secret id]',
             scopes: ['playlist-modify-public'],
             redirect_uri: 'http://localhost:5000/loginHandler.html'
         });
