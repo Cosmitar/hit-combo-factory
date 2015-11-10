@@ -19,7 +19,7 @@ export default {
     PLAYLIST_EXPORTED: 'playlist_exported',
     USER_SHOW_EXPORT_SUCCESS: 'user_show_export_success',
     SUCCESS_MESSAGES: [
-        ["Great Combos!","Spread the word for more creatives DJs in world"],
+        ["Great Combos!","Spread the word for more creatives DJs in the world"],
         ["That was an excelent playlist!","Tell your friends about it"],
         ["That was good","Remember, Jurgen is watching"],
         ["Awesome Combos!","Seems you put a lot of work into it"],

@@ -13,7 +13,7 @@ class LoginFrame extends Component {
             <div className="LoginFrame-container">
                 <div className="LoginFrame-box">
                         <span className="LoginFrame-copy">
-                            Log in with your Spotify Account <br/>
+                            Log in with your Spotify account <br/>
                             to let Hit Combo Factory export the playlists.
                         </span>
                         <a href="#" onClick={this._onLoginHandler.bind(this)}>
