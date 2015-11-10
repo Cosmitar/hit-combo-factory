@@ -22,8 +22,10 @@ You can choose from a combination of
 ##Additional functionality
 - You can let Hit Combo Factory suggest you artists related with current selection.
 - Remove a song and Hit Combo Factory will find another one from that artist for you.
+- Export the playlist to your Spotify account.
+- We can suggest you the playlist name :D
+- Get some inspirational messages XD
 - Preview the resultant playlist (WIP).
-- Export the playlist to your Spotify account (WIP).
 
 ### Development
 
