@@ -5,7 +5,7 @@ class WaterMark extends Component {
     render() {
         return (
             <div className={this.props.className + " WaterMark-continer" }>
-                <img src="style/images/watermark.svg" className="WaterMark-image" />
+                <img src="style/images/watermark.png" className="WaterMark-image" />
             </div>
         );
     }
