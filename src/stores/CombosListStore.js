@@ -5,7 +5,9 @@ import {
     COMBO_ADD_NEW,
     COMBO_CLEAR_LIST,
     ARTIST_REMOVE,
-    TRACK_REMOVE
+    TRACK_REMOVE,
+    SUGGESTING_START,
+    SUGGESTING_END
 } from './../constants/appConstants';
 
 let CHANGE_EVENT = 'change';
@@ -79,6 +81,18 @@ class CombosListStore extends EventEmitter {
                     break;
                 }
 
+                case SUGGESTING_START: {
+                    this.suggesting = true;
+                    this._emmitChange();
+                    break;
+                }
+
+                case SUGGESTING_END: {
+                    this.suggesting = false;
+                    this._emmitChange();
+                    break;
+                }
+
                 default: {
                     break;
                 }
@@ -132,6 +146,10 @@ class CombosListStore extends EventEmitter {
         minutes = (minutes < 10) ? "0" + minutes : minutes;
 
         return hours + "h" + (hours > 1? 's' : 'r') + ' ' + minutes + "m";
+    }
+
+    isSuggesting() {
+        return this.suggesting;
     }
 
 }

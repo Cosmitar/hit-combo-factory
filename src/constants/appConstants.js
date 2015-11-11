@@ -3,6 +3,8 @@
 export default {
     SEARCH_NEW: 'search-new',
     SEARCH_ARTIST_RESULT: 'search-artist-result',
+    SUGGESTING_START: 'suggesting_start',
+    SUGGESTING_END: 'suggesting_end',
     ARTIST_ADD_NEW: 'artist-add-new',
     ARTIST_REMOVE: 'artist-remove',
     ARTIST_NOT_FOUND: 'artist-not-found',

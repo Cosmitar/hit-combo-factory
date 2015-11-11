@@ -1,19 +1,32 @@
 'use strict'
 import React, {Component} from 'react';
 import SearchActions from './../actions/SearchActions';
+import CombosListStore from './../stores/CombosListStore';
 
 class SearchBar extends Component {
+    constructor(...props) {
+        super(...props);
+        this.state = {
+            suggesting: false
+        };
+    }
+
     componentDidMount() {
         this._setInitialUIState();
+        CombosListStore.addChangeListener(this._onChangeComboStore.bind(this));
+    }
+
+    componentWillUnmount() {
+        CombosListStore.removeChangeListener(this._onChangeComboStore.bind(this));
     }
 
     render() {
-        let disableSuggestion = this.props.totalSelectedArtists < 1;
+        let disableSuggestion = this.props.totalSelectedArtists < 1 || this.state.suggesting;
         let artistLeft = this.props.totalSelectableArtists != this.props.totalSelectedArtists;
         return (
             <div className="center-block">
 
-                <ul className="nav nav-pills SearchBar-nav-container">
+                <ul className={artistLeft? "nav nav-pills SearchBar-nav-container" : "hidden" }>
                     <li>
                         <form onSubmit={this._handleSubmit.bind(this)} className={artistLeft? "SearchBar-form form-inline" : "hidden" }>
                             <div className="form-group">
@@ -63,6 +76,9 @@ class SearchBar extends Component {
 
     _handleSuggest(e) {
         e.preventDefault();
+        this.setState({
+            suggesting: true
+        });
         SearchActions.suggestArtist();
     }
 
@@ -73,6 +89,12 @@ class SearchBar extends Component {
 
     _search(text) {
         SearchActions.search(text);
+    }
+
+    _onChangeComboStore() {
+        this.setState({
+            suggesting: CombosListStore.isSuggesting()
+        })
     }
 }
 

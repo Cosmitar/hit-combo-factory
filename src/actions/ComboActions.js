@@ -35,12 +35,18 @@ let comboActions = {
         let artistsLeft = ArtistsListStore.getLeft();
         let blacklistedArtistsMap = ArtistsListStore.getBlacklistMap();
         //dispatch event for suggesting process start
+        Dispatcher.dispatch({
+            type: constants.SUGGESTING_START
+        });
         ComboMaker.suggestArtist( artistsMap, artistsLeft, blacklistedArtistsMap )
         .then(( artistCollection ) => {
             for( let artist of artistCollection ){
                 SearchActions.selectArtist( artist );
                 //ComboMaker.makeCombo( artist );
             }
+            Dispatcher.dispatch({
+                type: constants.SUGGESTING_END
+            });
             //dispatch event for suggesting process end
         });
     },
