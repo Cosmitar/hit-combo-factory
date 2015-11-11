@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/cosmitar/hit-combo-maker.git"
+    "url": "https://www.github.com/cosmitar/hit-combo-factory.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Cosmitar (https://www.github.com/Cosmitar)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cosmitar/hit-combo-maker/issues"
+    "url": "https://github.com/cosmitar/hit-combo-factory/issues"
   },
-  "homepage": "https://github.com/cosmitar/hit-combo-maker",
+  "homepage": "https://github.com/cosmitar/hit-combo-factory",
   "engines": {
     "node": ">=4.1 <5",
     "npm": ">=3.1 <4"
