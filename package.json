@@ -1,7 +1,7 @@
 {
-  "name": "hit-combo-maker",
+  "name": "hit-combo-factory",
   "version": "1.0.0",
-  "description": "Spotify playlists maker base on concept of combos by artist.",
+  "description": "Spotify playlists maker based on concept of combos by artist.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
