@@ -1,5 +1,5 @@
 # Hit Combo Factory
-[Hit Combo Factory](http://cosmitar.github.io/hit-combo-factory/) is a crafter for an always-comfortable playlist using Spotify Web API.
+[Hit Combo Factory](http://cosmitar.github.io/hit-combo-factory/) is a generator engine for an always comfortable playlist using Spotify API.
 Select an artists and you'll get two tracks of each artist on the list.
 [Try this work-in-progress example](http://cosmitar.github.io/hit-combo-factory/)
 
