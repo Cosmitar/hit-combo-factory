@@ -1,7 +1,7 @@
 # Hit Combo Factory
 [Hit Combo Factory](http://cosmitar.github.io/hit-combo-factory/) is a generator engine for an always comfortable playlist using Spotify API.
 Select an artists and you'll get two tracks of each artist on the list.
-[Try this work-in-progress example](http://cosmitar.github.io/hit-combo-factory/)
+[Try this working example](http://cosmitar.github.io/hit-combo-factory/)
 
 ##Why two tracks? 
 **It's the perfect balance**
@@ -36,16 +36,9 @@ You can choose from a combination of
 
 ##Combo suggestions algorithm
 1. Take the selected artist.
-2. Get top tracks (for US market by now).
-3. Order tracks from step 2 by popularity in descending order, avoiding duplicated in the whole list, excluding the ones removed by user.
+2. Get top tracks (for US market by now) for artists of step 1.
+3. Order tracks from step 2 by popularity in descending order, avoiding duplicated in the whole list, excluding those ones removed by user.
 4. Take the 1st (for replacing) or the 1st and 2nd (for first time combo suggestion).
-
-##Naming suggestion algorithm XD
-1. Get the names of tracks in list.
-2. Split by space (" ") to obtain individual words.
-3. Replace some characters as (), [], {}.
-4. Normalize the words to lowercase an append them to a dictionary (using a Set to avoid duplicated).
-5. Build a phrase of variable length from 2 to 5 words, by randomly pick elements from the dictionary, extracting them from it to prevet duplicated selections.
 
 ### Development
 
